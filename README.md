@@ -29,11 +29,11 @@ La creación de contenido multimedia con ordenador ha ido evolucionando a lo lar
 
 * [0 qué es Godot](https://github.com/mgea/godot/wiki/Qu%C3%A9-es-Godot)
 
-* [1 Instalación](
+* [1 Instalación](https://github.com/mgea/godot/wiki/Instalaci%C3%B3n-de-Godot)
 
-* [2 Interfaz de Usuario]
+* [2 Interfaz de Usuario](https://github.com/mgea/godot/wiki/Editor)
 
-* [3 Conceptos básicos](
+* [3 Conceptos básicos](https://github.com/mgea/godot/wiki/Conceptos-b%C3%A1sicos)
 
 
 
