@@ -1,8 +1,4 @@
-# godot
-
-[Godot engine](https://godotengine.org/)  para Creación Multimedia Interactiva 
-
-<img src="https://kidscancode.org/godot_recipes/3.x/img/godot3_logo.png" width="250px" />
+# Multimedia interactiva 
 
 
 La creación de contenido multimedia con ordenador ha ido evolucionando a lo largo del tiempo. [Timeline](https://mgea.github.io/content/resources/timeline.html)
@@ -21,7 +17,15 @@ La creación de contenido multimedia con ordenador ha ido evolucionando a lo lar
 <br>
 
 
-## Sesión 1 Primera aproximación a Godot 
+## Sesión 1 Godot (game engine) 
+
+[Godot engine](https://godotengine.org/)  para Creación Multimedia Interactiva 
+
+<img src="https://kidscancode.org/godot_recipes/3.x/img/godot3_logo.png" width="250px" />
+
+
+
+
 
 * [0 qué es Godot](https://github.com/mgea/godot/wiki/Qu%C3%A9-es-Godot)
 
