@@ -10,18 +10,21 @@ Basado en: https://docs.godotengine.org/es/4.x/getting_started/step_by_step/scri
 * Comprender la jerarquía de objetos
 * Crear un objeto con animación 2D
 * Asociar un script a un objeto
+* 
 * Usar fuciones de consola
 
 
-### Animación de un Sprite 2D 
+### Mostrar Sprite 2D 
 
-Un Sprite 2D con animación es un Node2D > AnimatedSprite > Sprite2D
+Un **Sprite 2D** es un asset/recurso de tipo imagen,   Node2D > Sprite2D
+
+
 ### Pasos 
 
 https://docs.godotengine.org/es/4.x/getting_started/step_by_step/scripting_first_script.html 
 
 
-* Creación del Nodo animado
+* Creación del Nodo 
 
 ![AnimatedSprite2D](https://docs.godotengine.org/es/4.x/_images/scripting_first_script_add_sprite_node.webp)
 
@@ -35,7 +38,6 @@ https://docs.godotengine.org/es/4.x/getting_started/step_by_step/scripting_first
 * Escribir script (usando función de inicio por defecto)
 
 
-
 ```
 extends Sprite2D
 
@@ -43,6 +45,12 @@ func _init():
 	print("Hello, world!")
 ```
 
+
+* Guardar como escena (Menu > Escena > Guardar Escena )  con extensión .tscn 
+
+
+
+  
 
 
 
