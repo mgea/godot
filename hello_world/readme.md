@@ -37,6 +37,8 @@ https://docs.godotengine.org/es/4.x/getting_started/step_by_step/scripting_first
 
 
 ```
+extends Sprite2D
+
 func _init():
 	print("Hello, world!")
 ```
