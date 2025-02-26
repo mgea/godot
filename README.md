@@ -40,7 +40,7 @@ La creación de contenido multimedia con ordenador ha ido evolucionando a lo lar
 
 
 
-* Hola mundo (con GDScript) [Hello World](hello_world)
+* [Hello World](hello_world) Animación básica de un sprite con  GDScript por Consola  
 * 
 
 
