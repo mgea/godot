@@ -49,6 +49,9 @@ func _init():
 * Guardar como escena (Menu > Escena > Guardar Escena )  con extensión .tscn 
 
 
+### Publicación en itch.io 
+
+https://cmiugr.itch.io/hello-world 
 
   
 
