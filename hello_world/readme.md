@@ -34,9 +34,12 @@ https://docs.godotengine.org/es/4.x/getting_started/step_by_step/scripting_first
 
 * Escribir script (usando función de inicio por defecto)
 
+
+
+```
 func _init():
 	print("Hello, world!")
-
+```
 
 
 
