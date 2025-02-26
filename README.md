@@ -36,6 +36,13 @@ La creación de contenido multimedia con ordenador ha ido evolucionando a lo lar
 * [3 Conceptos básicos](https://github.com/mgea/godot/wiki/Conceptos-b%C3%A1sicos)
 
 
+### Ejemplos básicos (animación) 
+
+
+
+* Hola mundo (con GDScript) [Hello World](hello_world)
+* 
+
 
 
 
