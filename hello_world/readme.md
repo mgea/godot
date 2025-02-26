@@ -10,8 +10,9 @@ Basado en: https://docs.godotengine.org/es/4.x/getting_started/step_by_step/scri
 * Comprender la jerarquía de objetos
 * Crear un objeto con animación 2D
 * Asociar un script a un objeto
-* 
+* Comprender las funciones de notificación de objetos
 * Usar fuciones de consola
+* Crear una nueva escena con instancias 
 
 
 ### Mostrar Sprite 2D 
@@ -46,8 +47,23 @@ func _init():
 ```
 
 
-* Guardar como escena (Menu > Escena > Guardar Escena )  con extensión .tscn 
+* Guardar como escena (Menu > Escena > Guardar Escena )  con extensión .tscn
 
+* se puede cambiar la posición del objeto con la función random - [randi](https://docs.godotengine.org/en/stable/classes/class_randomnumbergenerator.html) 
+
+
+en el código quedaría así: 
+
+```
+extends Sprite2D
+
+func _process(delta: float) -> void:
+	position.x = position.x + randi_range(-5,5)
+	position.y = position.y + randi_range(-5,5)
+	if (position.x>1200):
+		position.x = 0
+
+```
 
 ### Publicación en itch.io 
 
