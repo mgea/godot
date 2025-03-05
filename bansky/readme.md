@@ -21,3 +21,19 @@ func _on_pressed() -> void:
 
 ```
 
+
+Godot permite que se pueda manipular desde el **Inspector** el nombre de la escena a la que se va a saltar usando la posibilidad de **exportar propiedades** 
+
+https://docs.godotengine.org/es/4.x/tutorials/scripting/gdscript/gdscript_exports.html
+
+
+
+```
+extends Button
+
+@export var siguiente_escena: String
+
+func _on_pressed() -> void:
+	get_tree().change_scene_to_file(siguiente_escena)
+
+```
