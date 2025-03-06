@@ -11,7 +11,7 @@ Ejemplo para pasar de una escena a otra usando Botón (control)
 
 * [Botones](https://github.com/mgea/godot/wiki/Button) - al pulsar se pasa de una escena a otras
 
-* [Escenas](https://github.com/mgea/godot/wiki/Escenas) - Las escenas se pueden  
+* [Escenas](https://github.com/mgea/godot/wiki/Escenas) - Las escenas se pueden organizar para que se pueda pasar de una a otra  
 
 
 
