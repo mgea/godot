@@ -1,4 +1,4 @@
-## Bansky
+## Bansky Sequence
 
 ![](https://github.com/mgea/godot/blob/main/bansky/bansky_cover.png)
 
@@ -28,6 +28,7 @@ func _on_pressed() -> void:
 
 ```
 
+..donde ``"res://Banksy-bethlehem.tscn"`` es la Ruta dentro de la carpeta del proyecto de Godot para acceder a la escena con ese nombre.
 
 Godot permite que se pueda manipular desde el **Inspector** el nombre de la escena a la que se va a saltar usando la posibilidad de **exportar propiedades** 
 
@@ -44,3 +45,14 @@ func _on_pressed() -> void:
 	get_tree().change_scene_to_file(siguiente_escena)
 
 ```
+
+De ese modo, se puede poner el nombre de la siguiente escena en la ventana (dock) del inspector 
+
+
+
+Por último, se pueden "reutilizar" escenas y comportamientos definidos en otros proyectos. Simplemente hay que "añadirlos" al proyecto y ajustar sus rutas para encontrar escenas y scripts. 
+
+### Publicación en itch.io
+
+https://cmiugr.itch.io/bansky
+
