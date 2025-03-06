@@ -1,5 +1,8 @@
 ## Bansky
 
+https://github.com/mgea/godot/blob/main/bansky/bansky_cover.png
+
+
 Ejemplo para pasar de una escena a otra usando Botón (control) 
 
 * [Botones](https://github.com/mgea/godot/wiki/Button) - al pulsar se pasa de una escena a otras
