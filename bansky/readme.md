@@ -1,6 +1,10 @@
 ## Bansky
 
-https://github.com/mgea/godot/blob/main/bansky/bansky_cover.png
+![](https://github.com/mgea/godot/blob/main/bansky/bansky_cover.png)
+
+Se crean varias escenas diferentes con una imagen de Baksy y un botón para pasar a la siguiente escena.
+
+
 
 
 Ejemplo para pasar de una escena a otra usando Botón (control) 
