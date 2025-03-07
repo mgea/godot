@@ -21,7 +21,7 @@ Un **Sprite 2D** es un asset/recurso de tipo imagen,   Node2D > Sprite2D
 
 Vamos a crear un Sprite2D que se va a mover en horizontal (godot-h) de modo que cuando salga por la derecha de la vuelta 
 
-### Pasos Escena 1: ogro con movimiento horizontal
+### Pasos Escena 1: logo de godot con movimiento horizontal
 
 https://docs.godotengine.org/es/4.x/getting_started/step_by_step/scripting_first_script.html 
 
@@ -63,7 +63,7 @@ func _process(delta: float) -> void:
 
 
 
-### Pasos Escena 2: ogro con movimiento vertical
+### Pasos Escena 2: logo ogro con movimiento vertical
 
 Creamos nuevamente otra escena con una imagen de godot pero que ahora su script (``godot-v.gd``) le permite moverse en vertical y se guarda como escena  (``godot-v.tscn``)
 
@@ -75,9 +75,9 @@ La composición final incluye múltiples instancias de escenas de godots que se 
 ```mermaid
 graph LR
   A[scene]  --> B(godot-h instancia 1ª)
-    A --> C(godot-h instancia 2ª)
-    A --> D(godot-v  instancia 1ª)
-    A --> E(godot-v  instancia 2ª) 
+    A --> C(godot-h.tscn instancia 2ª)
+    A --> D(godot-v.tscn  instancia 1ª)
+    A --> E(godot-v.tscn  instancia 2ª) 
     A --> F(Sprite2D fondo)
 
 ```
