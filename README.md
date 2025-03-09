@@ -36,6 +36,16 @@ La creación de contenido multimedia con ordenador ha ido evolucionando a lo lar
 * [3 Conceptos básicos](https://github.com/mgea/godot/wiki/Conceptos-b%C3%A1sicos)
 
 
+## Sesión 2 Godot (multimedia) 
+
+Conceptos: 
+
+* 4 [[Imágenes]] y propiedades: ajustes, transparencias, modelo de color
+* 5 [[Texto]] y sus propiedades
+* 6 Animación 2D con [[AnimationPlayer]]
+
+
+
 ### Ejemplos básicos (animación) 
 
 
