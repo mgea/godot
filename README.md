@@ -56,7 +56,7 @@ Conceptos:
 <br>
 -------------
 
-Creación Multimedia Interactiva
+[Creación Multimedia Interactiva](https://github.com/mgea/interart) 
 
 Facultad de Bellas Artes, Universidad de Granada 
 
