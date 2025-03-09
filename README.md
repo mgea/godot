@@ -40,18 +40,15 @@ La creación de contenido multimedia con ordenador ha ido evolucionando a lo lar
 
 Conceptos: 
 
-* 4 [[Imágenes]] y propiedades: ajustes, transparencias, modelo de color
-* 5 [[Texto]] y sus propiedades
-* 6 Animación 2D con [[AnimationPlayer]]
+* 4 Imágenes y propiedades: ajustes, transparencias, modelo de color
+* 5 Texto y sus propiedades
+* 6 Animación 2D con AnimationPlayer
 
 
 
-### Ejemplos básicos (animación) 
+### Ejemplos
 
-
-
-* [Hello World](hello_world) Animación básica de un sprite con  GDScript por Consola  
-* [Bansky](bansky) Pasar de una escena a otra con botones 
+* Atenas - composición imágenes por capas
 
 
 
