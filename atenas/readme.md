@@ -20,7 +20,7 @@ Basado en:
 * Aplicar movimiento a los nodos
 * Para establecer propiedades de otros nodos: se debe usar **get_node()** https://kidscancode.org/godot_recipes/3.x/basics/getting_nodes/
   
-![tree](atenas_tree)
+![tree](atenas_tree.png)
 
 
 ### Parallax Scrolling 
