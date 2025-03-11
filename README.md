@@ -36,12 +36,14 @@ La creación de contenido multimedia con ordenador ha ido evolucionando a lo lar
 * [3 Conceptos básicos](https://github.com/mgea/godot/wiki/Conceptos-b%C3%A1sicos)
 
 
+### Ejemplos
+
 
  * [Hello World](hello_world) Animación básica de un sprite con  GDScript por Consola  
   
  * [Bansky](bansky) Pasar de una escena a otra con botones 
  
-
+<br>
 
 ## Sesión 2 Godot (multimedia) 
 
