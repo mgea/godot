@@ -11,7 +11,7 @@ Basado en:
 ###  Objetivos 
 
 * Comprender cómo hacer la segmentación de una imagen en capas
-* Cómo cambiar propiedades de otros nodos del arbol 
+* Cómo cambiar propiedades de otros nodos mediante el [arbol de nodos](https://github.com/mgea/godot/wiki/Arbol-de-nodos) 
 * Aplicar métodos de Parallax Scrolling (primera aproximación) 
 
 ### Segmentar imagen en capas 
