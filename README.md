@@ -61,6 +61,7 @@ Conceptos:
 ### Ejemplos
 
 * [Atenas](atenas) - composición imágenes por capas
+* [BBAAteaser](bbaateaser) - animacion por linea de tiempo con jerarquías animadas y reutilización de escenas
 
 
 
