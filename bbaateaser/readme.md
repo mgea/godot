@@ -49,6 +49,11 @@ En este caso hay que ir componiendo parte por parte.
 
 ![logoanim](logo_animation.png)
 
+
+### Información sobre animación:
+
+https://github.com/mgea/godot/wiki/Animation
+
 ### Publicación en itch.io
 
 https://cmiugr.itch.io/bbaa-animated
