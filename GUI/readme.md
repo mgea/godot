@@ -14,6 +14,9 @@ Diseño del UI:
 * Panel
 
 
+
+
+
 Cambiar estilo de componentes con Themes. 
 
 Uso de tilesheets personalizados. 
@@ -26,4 +29,7 @@ Uso de Fonts:
 
 ![](https://see.fontimg.com/api/rf5/w16n8/NzZlMTAyNDg0YzM5NGVhMjk4ZTEyMTBiNTU1YTRmZjQub3Rm/S05JR0hUIFdBUlJJT1I/knight-warrior.png?r=fs&h=130&w=2000&fg=000000&bg=FFFFFF&tb=1&s=65) 
 https://www.fontspace.com/knight-warrior-font-f104596
+
+
+Crear un nuevo estilo y guardar como recurso ``.tres``
 
