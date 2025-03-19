@@ -6,6 +6,9 @@ Diseño del UI:
 
 - Apariencia (themes)
 
+Revisar: 
+* [UI](https://github.com/mgea/godot/wiki/UI)
+* [Button](https://github.com/mgea/godot/wiki/Button)
 
 ![](GUI_CMI.png)
 
