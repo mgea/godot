@@ -83,7 +83,15 @@ Conceptos:
 
 ## Sesión 4 Godot (audio & character animation ) 
 
+Uso de audio y canales:
+
 * [Jukebox](jukebox)
+
+Animación con sprite (usando botones, no movimiento con teclas)
+
+
+* [Sprite2Dbasic](animationsprite_basic)
+
 
 <br>
 -------------
