@@ -42,3 +42,31 @@ func _on_button_pressed() -> void:
 
 ```
 
+
+Funciones: 
+
+```
+void play()
+void stop()
+void set_volume_db(value: float) # en decibelios
+float get_volume_db() # obtener volumen
+void set_stream_paused(value: bool) # valor true=pausar, false=reanudar
+bool get_stream_paused() # true si está pausado
+
+```
+
+
+Creamos un botón conmutador play/stop
+
+
+```
+# creamos un botón con nombre bt_music de tipo AudioStreamPlayer
+
+func _on_button_pressed() -> void:
+  if $bt_music.playing:      # se podría poner tambien if ($bt_music().is_playing): 
+    $bt_music.stop()
+  else:
+    $bt_music.play()
+```
+
+
