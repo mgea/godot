@@ -31,6 +31,10 @@ Se pueden insertar las imágenes por separado o bien en una hoja (spritesheet)
 ![](https://docs.godotengine.org/en/stable/_images/2d_animation_add_from_spritesheet.webp) 
 
 
+Para ello, hay que usar un spritesheet con todos los movimientos del personaje 
+
+![spritesheet](https://opengameart.org/sites/default/files/styles/medium/public/Male%20Sprite_0.png)
+
 
 Tutorial (video) 
   - Tutorial AnimationPlayer en Godot Engine. (Parte 1) https://www.youtube.com/watch?v=5k2eD_57_qA
