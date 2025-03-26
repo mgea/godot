@@ -1,4 +1,5 @@
-## AnimationSprite basic
+## AnimatedSprite2D (basic)
+
 
 
 ###  Objetivos 
