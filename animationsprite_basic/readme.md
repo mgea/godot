@@ -21,3 +21,10 @@ Info:   https://docs.godotengine.org/en/stable/tutorials/2d/2d_sprite_animation.
 Crear nodo ``AnimatedSprite2D``
 
 ![](https://docs.godotengine.org/en/stable/_images/2d_animation_tree1.webp)
+
+
+Se pueden insertar las imágenes por separado o bien en una hoja (spritesheet)
+
+![](https://docs.godotengine.org/en/stable/_images/2d_animation_spriteframes_done.webp) 
+
+![](https://docs.godotengine.org/en/stable/_images/2d_animation_add_from_spritesheet.webp) 
