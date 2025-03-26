@@ -29,3 +29,9 @@ Se pueden insertar las imágenes por separado o bien en una hoja (spritesheet)
 ![](https://docs.godotengine.org/en/stable/_images/2d_animation_spriteframes_done.webp) 
 
 ![](https://docs.godotengine.org/en/stable/_images/2d_animation_add_from_spritesheet.webp) 
+
+
+
+Tutorial (video) 
+  - Tutorial AnimationPlayer en Godot Engine. (Parte 1) https://www.youtube.com/watch?v=5k2eD_57_qA
+  - Godot 4 2D Sprite Animation Tutorial For Beginners:  https://www.youtube.com/watch?v=gOSEdi6oBjQ 
