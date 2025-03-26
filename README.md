@@ -90,7 +90,7 @@ Uso de audio y canales:
 Animación con sprite (usando botones, no movimiento con teclas)
 
 
-* [Sprite2Dbasic](animationsprite_basic)
+* [Sprite2Dbasic](animatedSprite_basic)
 
 
 <br>
