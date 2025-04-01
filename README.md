@@ -96,6 +96,9 @@ Animación con sprite (usando botones, no movimiento con teclas)
 
 ## Sesión 5 Godot (video y galería) 
 
+En esta parte nos vamos a centrar en cómo manejar stream de video y cómo crear una galería sencilla de imágenes. 
+
+
 
 
 
