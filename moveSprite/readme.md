@@ -30,7 +30,7 @@ info: https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html
 
 ## Movimiento 
 
-Hay que crear las siguiente funciones 
+Hay que crear las siguiente funciones porque se debe usar la función **_physics_process** para que tenga en cuenta propiedades físicas.
 
 ```
 extends CharacterBody2D
