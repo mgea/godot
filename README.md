@@ -100,6 +100,9 @@ En esta parte nos vamos a centrar en cómo manejar stream de video y cómo crear
 
 
 
+* [Galería](gallery) - Incluye manejo de video, listas y galería de imágenes.
+
+
 
 
 <br>
