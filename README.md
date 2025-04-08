@@ -104,6 +104,16 @@ En esta parte nos vamos a centrar en cómo manejar stream de video y cómo crear
 
 
 
+## Sesión 6 Mover personje 2D (inputs y colisiones) 
+
+En esta parte nos vamos a centrar en cómo manejar stream de video y cómo crear una galería sencilla de imágenes. 
+
+
+
+* [Mover sprite2D](moveSprite) - Incluye gestión de inputs (teclado) y movimiento pesonaje 2D (X.Y) con colisiones
+
+
+
 
 <br>
 -------------
