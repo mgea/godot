@@ -56,4 +56,16 @@ func _physics_process(delta):
 
 
 ## Colisiones
+
+Los objetos que controlamos (movemos) pueden colisionar con otros objetos de tipo ``StaticBody2D``
+
+Un ``StaticBody2D`` contiene:
+
+- Sprite2D (forma)
+- CollisionShape2D (área de colision) 
+
+ref: https://docs.godotengine.org/en/stable/classes/class_staticbody2d.html
+
+
+
  
