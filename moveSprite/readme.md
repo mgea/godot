@@ -48,16 +48,14 @@ func _physics_process(delta):
 ```
 
 
-* move_and_slide()
+* move_and_slide() es una función de un ``CharacterBody2D`` que permite mover el objeto teniendo en cuenta las colisiones (zonas prohibidas) 
 
 
 
 
+## Objetos de Colisiones
 
-
-## Colisiones
-
-Los objetos que controlamos (movemos) pueden colisionar con otros objetos de tipo ``StaticBody2D``
+Los objetos que controlamos (movemos) pueden colisionar con otros objetos de tipo **``StaticBody2D``**
 
 Un ``StaticBody2D`` contiene:
 
@@ -67,5 +65,17 @@ Un ``StaticBody2D`` contiene:
 ref: https://docs.godotengine.org/en/stable/classes/class_staticbody2d.html
 
 
+
+## move_and_collide Vs move_and_slide
+
+
+La función ``move_and_collide()``  devuelve un objeto de tipo ``KinematicCollision2D`` que se pueden usar en código para saber con quién se ha colisionado.
+
+```
+# Using move_and_collide.
+var collision = move_and_collide(velocity * delta)
+if collision:
+	print("I collided with ", collision.get_collider().name)
+```
 
  
