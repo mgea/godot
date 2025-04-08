@@ -3,17 +3,21 @@
 info: https://docs.godotengine.org/es/4.x/tutorials/2d/2d_movement.html
 resumen de nodos necesarios: 
 
+Un Sprite que podemos mover con el teclado/ratón normalmente es un **player** qye se diferencia de los **NPC** ("Non-Player Character" o "Personaje No Jugable") que son los personajes de un videojuego que no son controlados por el jugador. 
+
+
 Player:
+```
 * CharacterBody2D
   * Sprite2D
   * CollisionShape2D
-
+```
 NPC: 
+```
 * StaticBody2D
   * Sprite2D
   * CollisionShape2D
-
-Un Sprite que podemos mover con el teclado/ratón normalmente es un **player** qye se diferencia de los **NPC** ("Non-Player Character" o "Personaje No Jugable") que son los personajes de un videojuego que no son controlados por el jugador. 
+```
 
 Para ello, debenmos activar lo siguiente:
 
