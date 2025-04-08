@@ -43,4 +43,6 @@ $videostreamplayer.play()
 ```
 
 
+Es importante conocer cómo funcionan las listas (para almacenar nombres de imágenes) https://github.com/mgea/godot/wiki/Listas 
+
 
