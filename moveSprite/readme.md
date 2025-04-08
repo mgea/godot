@@ -19,7 +19,7 @@ NPC:
   * CollisionShape2D
 ```
 
-Para ello, debenmos activar lo siguiente:
+Para ello, debemos activar lo siguiente:
 
 ## Inputs 
 
