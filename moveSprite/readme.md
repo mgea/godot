@@ -2,8 +2,9 @@
 
 info: https://docs.godotengine.org/es/4.x/tutorials/2d/2d_movement.html
 
+Un Sprite que podemos mover con el teclado/ratón normalmente es un **player** qye se diferencia de los **NPC** ("Non-Player Character" o "Personaje No Jugable") que son los personajes de un videojuego que no son controlados por el jugador. 
 
-
+Para ello, debenmos activar lo siguiente:
 
 ## Inputs 
 
@@ -11,6 +12,9 @@ Se deben **activar** las siguientes combinaciones de teclado para mover sprite, 
 
 ![inputs](https://docs.godotengine.org/es/4.x/_images/movement_inputs.webp)
 
+
+
+Estos pesonajes controlables se crean con otro tipo de nodo:
 
 ## CharacterBody2D 
 
