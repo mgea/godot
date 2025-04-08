@@ -23,6 +23,8 @@ Contiene una apariencia (Sprite2D) y un área de colisión (CollisionShape2D)
 
 Comienza con un CharacterBody2D con dos hijos: Sprite2D y CollisionShape2D.
 
+El área de colision de debe definir con una forma (Shape) que se ajuste lo máximo posible como caja envolvente del personaje (círculo, rectángulo) 
+
 info: https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html
 
 
