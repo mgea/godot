@@ -116,11 +116,13 @@ En esta parte nos vamos a centrar en cómo manejar stream de video y cómo crear
 
 
 <br>
+<br>
 
 
 ## RECURSOS E INFORMACION SOBRE GODOT
 
-* en video Averageguymedianow (2024) What is Godot Engine? - https://medium.com/@averageguymedianow/what-is-godot-engine-0eac30214bf2
+* video Godot Tutorial (español) https://www.youtube.com/playlist?list=PL5PTqiCIVoiVyA2qed1NE4uKejXEWM60e
+
 * Godot-land https://godot.land/que-es-godot-engine/
 
 
