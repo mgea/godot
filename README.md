@@ -116,6 +116,17 @@ En esta parte nos vamos a centrar en cómo manejar stream de video y cómo crear
 
 
 <br>
+
+
+## RECURSOS E INFORMACION SOBRE GODOT
+
+* en video Averageguymedianow (2024) What is Godot Engine? - https://medium.com/@averageguymedianow/what-is-godot-engine-0eac30214bf2
+* Godot-land https://godot.land/que-es-godot-engine/
+
+
+
+
+<br>
 -------------
 
 [Creación Multimedia Interactiva](https://github.com/mgea/interart) 
