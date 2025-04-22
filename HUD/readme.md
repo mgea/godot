@@ -66,7 +66,7 @@ Añadimos fonts
   - nueva acción name= open_gui
   - añadir input->teclado-> spacebar
  
-![mapa_inputs](input_propia)
+![mapa_inputs](input_propia.png)
 
 
 - añadimos script para conmutar panel (dentro de la función _process)
