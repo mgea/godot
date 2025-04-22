@@ -1,7 +1,8 @@
 # Mover Player con animación propia 
 
 Es un caso muy similar a [moveSprite](../moveSprite) pero cambiando el Sprite por un AnimatedSprite2D.
-Códio en zip (versión Godot 4.4) [walkingPlayer.zip](walking_player.zip)
+
+Código en zip (versión Godot 4.4) [walkingPlayer.zip](walking_player.zip)
 
 Pasos: 
 
