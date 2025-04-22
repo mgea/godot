@@ -107,8 +107,9 @@ En esta parte nos vamos a centrar en cómo manejar stream de video y cómo crear
 
 En esta parte nos vamos a centrar en cómo manejar personajes (y colisiones)
 
-* [Mover sprite2D](moveSprite) - Incluye gestión de inputs (teclado) y movimiento pesonaje 2D (X.Y) con colisiones
+* [Mover sprite2D](moveSprite) - Incluye gestión de inputs (teclado) y movimiento pesonaje 2D (X.Y) con colisiones (personaje sin animación propia: es un Sprite2D)
 
+* [Mover animatedSprite2D](moveanimatedSprite) - Movimiento de un player con animación propia (**AnimatedSprite2D**) 
 
 
 
