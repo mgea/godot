@@ -1,5 +1,8 @@
 #  HUD (Head Up Display) Panel 
 
+
+Código en [hud_panel.zip](hud_panel.zip)
+
 Creación de un panel de IU para juego https://es.wikipedia.org/wiki/HUD_(videojuegos)
 
 Es la información que se muestra en juego durante la partida 
