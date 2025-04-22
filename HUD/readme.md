@@ -47,6 +47,10 @@ CanvasLayer
   !-- Button 
 
 
+![HUD](HUD.png)
+
+
+
 Creamos un theme para UI (label/button)
 
 Añadimos fonts 
