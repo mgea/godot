@@ -6,13 +6,18 @@ resumen de nodos necesarios:
 Un Sprite que podemos mover con el teclado/ratón normalmente es un **player** qye se diferencia de los **NPC** ("Non-Player Character" o "Personaje No Jugable") que son los personajes de un videojuego que no son controlados por el jugador. 
 
 
-Player:
+### Player:
 ```
 * CharacterBody2D
   * Sprite2D
   * CollisionShape2D
 ```
-NPC: 
+![](https://camo.githubusercontent.com/24c8203fb576c7f6050cf728fd8ec82f14f80361cb741990c1131e5d2321c6d7/68747470733a2f2f646f63732e676f646f74656e67696e652e6f72672f656e2f737461626c652f5f696d616765732f32645f616e696d6174696f6e5f74726565312e77656270)
+
+
+
+### NPC (Non Playable Character)
+
 ```
 * StaticBody2D
   * Sprite2D
@@ -27,6 +32,13 @@ Se deben **activar** las siguientes combinaciones de teclado para mover sprite, 
 
 ![inputs](https://docs.godotengine.org/es/4.x/_images/movement_inputs.webp)
 
+
+Esas acciones por defecto permiten controlar personajes mediante la función **Input**, por ejemplo:
+
+```
+if Input.is_action_just_pressed("ui_right"):
+	print("ir a la derecha")
+```
 
 
 Estos pesonajes controlables se crean con otro tipo de nodo:
