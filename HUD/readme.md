@@ -1,5 +1,4 @@
-
-# HUD (Head Up Display) Panel 
+#  HUD (Head Up Display) Panel 
 
 Creación de un panel de IU para juego https://es.wikipedia.org/wiki/HUD_(videojuegos)
 
