@@ -27,9 +27,9 @@ Se asigna un theme (tres) con:
 
 
 
-### Pasos 
+### Pasos 
 
-### 1 Creamos el UI (CanvasLayer) y aplicamos theme 
+#### 1 Creamos el UI (CanvasLayer) y aplicamos theme 
 
 
 
@@ -55,7 +55,7 @@ Añadimos fonts
 
 
 
-### 2 Activamos inputs (para activar/desactivar con espacio)
+####  2 Activamos inputs (para activar/desactivar con espacio)
 
 - Proyecto->Configuración->Mapa de entradas 
 - CREAMOS UNA NUEVA ACCION (open_gui) con Input = espacio
