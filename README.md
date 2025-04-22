@@ -74,11 +74,11 @@ Conceptos:
 * 
 
 
-### Ejemplos
+### Ejemplos GUI y HUD 
 
 * [GUI](GUI) - Controles y look&feel
 
-
+* HUD 
 
 
 ## Sesión 4 Godot (audio & character animation ) 
@@ -99,18 +99,27 @@ Animación con sprite (usando botones, no movimiento con teclas)
 En esta parte nos vamos a centrar en cómo manejar stream de video y cómo crear una galería sencilla de imágenes. 
 
 
-
 * [Galería](gallery) - Incluye manejo de video, listas y galería de imágenes.
 
 
 
 ## Sesión 6 Mover personje 2D (inputs y colisiones) 
 
-En esta parte nos vamos a centrar en cómo manejar stream de video y cómo crear una galería sencilla de imágenes. 
-
-
+En esta parte nos vamos a centrar en cómo manejar personajes (y colisiones)
 
 * [Mover sprite2D](moveSprite) - Incluye gestión de inputs (teclado) y movimiento pesonaje 2D (X.Y) con colisiones
+
+
+
+
+
+
+## Sesión 7 Diálogos 
+
+
+### Diálogo (básico) con Dialogic 
+
+### Diálogo con colisiones
 
 
 
