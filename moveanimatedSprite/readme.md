@@ -26,7 +26,7 @@ Para crear las animaciones, es buena idea tener un spritesheet con todas las pos
 
 ### 3 Activamos los inputs o mapas de entrada (en configuración del proyecto)
 
-Se pueden activas el mapa de entradas por defecto. vamos a mover player con "ui_left", "ui_right", "ui_top", "ui_bottom"
+Se pueden activar y usar el mapa de entradas por defecto. vamos a mover player con los valores por defecto para cursores "ui_left", "ui_right", "ui_top", "ui_bottom"
 
 Se pueden crear mapas específicos de entrada (dando un nombre y asociando los inputs) 
 
@@ -92,6 +92,9 @@ func _physics_process(delta: float) -> void:
 ```
 
 
+### 5 Mover y colisión 
 
-
+Tenemos dos funciones dentro de ``_physics_process``: 
+* ``move_and_slide()`` hace que se mueva el personaje con la aceleración indicada y colisiona (pero no hace nada más)  
+* ``move_and_collide()`` además es capaz de saber con qué objeto ha colisionado
 
