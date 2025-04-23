@@ -12,7 +12,7 @@ Un Sprite que podemos mover con el teclado/ratón normalmente es un **player** q
   * Sprite2D
   * CollisionShape2D
 ```
-![](https://camo.githubusercontent.com/24c8203fb576c7f6050cf728fd8ec82f14f80361cb741990c1131e5d2321c6d7/68747470733a2f2f646f63732e676f646f74656e67696e652e6f72672f656e2f737461626c652f5f696d616765732f32645f616e696d6174696f6e5f74726565312e77656270)
+
 
 
 
