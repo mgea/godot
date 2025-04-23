@@ -10,9 +10,21 @@ Ejemplo base para diseñar diálogos: [walking_player_con_dialogic.zip](walking_
 
 ### Variables globales 
 
+EN el editor se pueden crear variables globales que se pueden usar durante la conversación, pueden tener difernetes tipos (string, int, bool)
+
+![](dialogic_var.png)
+
+En cualquier momento se pueden usar poniendolas entre llaves: 
+
+``{VAR.nombre}`` o bien ``{nombre}``
 
 
-### Dialogos 
+
+### Dialogos (timeline)
+
+Un timeline describe un diálogo. se almacena con extensión **.dtl**
+
+
 
 
 Acciones que se pueden hacer en un diálogo:
