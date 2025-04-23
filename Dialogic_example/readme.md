@@ -6,6 +6,11 @@ Documentación en: https://docs.dialogic.pro/introduction.html
 
 Ejemplo base para diseñar diálogos: [walking_player_con_dialogic.zip](walking_player_Dialogic.zip)
 
+Usamos como personajes para el dialogo los siguientes character: 
+* Sutemo https://sutemo.itch.io/female-character 
+* Jon: https://sraye.itch.io/mature-male-character-sprites
+
+
 
 
 ### Variables globales 
