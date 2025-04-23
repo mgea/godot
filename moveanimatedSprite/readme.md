@@ -18,6 +18,10 @@ Se puede usar un spritesheet para cargar de modo más rápido las imágenes de m
 
 ![player](animations.png)
 
+Para crear las animaciones, es buena idea tener un spritesheet con todas las poses del personaje: 
+
+![spritesheet](frisk_spritesheet.png)
+
 
 
 ### 3 Activamos los inputs o mapas de entrada (en configuración del proyecto)
@@ -25,6 +29,8 @@ Se puede usar un spritesheet para cargar de modo más rápido las imágenes de m
 Se pueden activas el mapa de entradas por defecto. vamos a mover player con "ui_left", "ui_right", "ui_top", "ui_bottom"
 
 Se pueden crear mapas específicos de entrada (dando un nombre y asociando los inputs) 
+
+Video ejemplo de cómo personalizar inputs: https://www.youtube.com/watch?v=52aG2CLgOck 
 
 ### 4 Creamos script del player para movimiento y colisión 
 
@@ -34,7 +40,21 @@ frisk.gd contine dos funciones:
 
 - _physics_process() es una función de los CharacterBody2D que permite calcular cómo debe actuar (movimiento y colisiones). Debemos saber qué tecla se ha pulsado (por ejemplo Input.is_action_just_pressed("ui_right") ) para activar la animación correspondiente. Si se suelta alguna de esas teclas Input.is_action_just_released("soltar_tecla"), se vuelve a posición de reposo ("defaul"). Por ahora imprime en la consola si ha colisionado con algún objeto sólido (StaticObject2D)
 
-   
+
+Modo básico 
+```
+extends CharacterBody2D
+
+const SPEED = 300.0
+
+func _physics_process(delta: float) -> void:
+	var vector = Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
+	velocity = vector * SPEED
+	move_and_slide()
+```
+
+Si queremos además animar al personaje. debemos poner en play su animación en la dirección que se mueva (con la señal ``Input.is_action_just_pressed`` según la tecla que se pulse: 
+
 
 ```
 extends CharacterBody2D
