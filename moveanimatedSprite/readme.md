@@ -36,9 +36,9 @@ Video ejemplo de cómo personalizar inputs: https://www.youtube.com/watch?v=52aG
 
 frisk.gd contine dos funciones: 
 
-- get_input() es una función para saber qué dirección toma el personaje mediante un vector. Ese vector se calcula sabiendo qué teclas se han pulsado izda-dcha-up-down y dará 8 direcciones. Se multiplica ese valor por una constante de velocidad (speed) que podemos variar. 
+- ``get_input()`` es una función para saber qué dirección toma el personaje mediante un vector. Ese vector se calcula sabiendo qué teclas se han pulsado izda-dcha-up-down y dará 8 direcciones. Se multiplica ese valor por una constante de velocidad (speed) que podemos variar. 
 
-- _physics_process() es una función de los CharacterBody2D que permite calcular cómo debe actuar (movimiento y colisiones). Debemos saber qué tecla se ha pulsado (por ejemplo Input.is_action_just_pressed("ui_right") ) para activar la animación correspondiente. Si se suelta alguna de esas teclas Input.is_action_just_released("soltar_tecla"), se vuelve a posición de reposo ("defaul"). Por ahora imprime en la consola si ha colisionado con algún objeto sólido (StaticObject2D)
+- ``_physics_process()`` es una función de los ``CharacterBody2D`` que permite calcular cómo debe actuar (movimiento y colisiones). Debemos saber qué tecla se ha pulsado (por ejemplo Input.is_action_just_pressed("ui_right") ) para activar la animación correspondiente. Si se suelta alguna de esas teclas Input.is_action_just_released("soltar_tecla"), se vuelve a posición de reposo ("defaul"). Por ahora imprime en la consola si ha colisionado con algún objeto sólido (StaticObject2D)
 
 
 Modo básico 
