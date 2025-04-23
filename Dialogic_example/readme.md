@@ -15,11 +15,20 @@ Ejemplo base para diseñar diálogos: [walking_player_con_dialogic.zip](walking_
 ### Dialogos 
 
 
+Acciones que se pueden hacer en un diálogo:
+
+![](https://docs.dialogic.pro/media/introduction/events.png)
+
+
+
 ### Characters 
 
 Al crear los characters, todas las imágenes del personaje deben estar en una carpeta (expresiones) 
 
 ![characters_folder](dialogic_characters.png)
+
+Cada personaje se crea con una extensión **.dch**
+
 
 ### Estilos de diálogo (bubble) 
 
