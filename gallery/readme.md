@@ -46,3 +46,51 @@ $videostreamplayer.play()
 Es importante conocer cómo funcionan las listas (para almacenar nombres de imágenes) https://github.com/mgea/godot/wiki/Listas 
 
 
+
+El script que hay que introducir en la escena de la Galería deberia tener: 
+* una lista (usando [ ] ) con todos los enlaces a las imágenes (con todo el camino desde res://) entre comillas y separadas por comas.
+* una variable numerica (indice) para saber cual es la imagen actual
+* una variable numerica (total) para saber cuantas imágenes hay en la lista
+  
+```
+extends Node2D
+
+var image
+
+var indice = 0
+var total = 4
+
+var imglist = [ "res://img/banksy-84.png",
+                "res://img/Banksy-Bethlehem-22.jpg",
+		"res://img/Banskiy-nina-cacheando.jpg",
+		"res://img/Bansky-Jobs.jpg" ]
+ 
+
+```
+
+Cada vez que se pulse un botón (adelante) se debería actualizar la siguiente imagen en el objeto Sprite2D
+
+```
+func _on_next_pressed() -> void:
+	indice = indice +1 
+	if (indice>=total_img):
+		indice=0           # para que sea cíclico
+	image = Image.load_from_file(imglist[indice])
+	$foto.texture = texture
+	$Label.set_text (str(indice))
+```
+
+Cada vez que se pulse un botón (atrás) se debería actualizar la  imagen anterior en el objeto Sprite2D
+
+
+```
+func _on_prev_pressed() -> void:
+	indice = indice -1 
+	if (indice<0):
+		indice=total_img-1 # para que sea cíclico
+	image = Image.load_from_file(imglist[indice])
+	var texture = ImageTexture.create_from_image(image)
+	$foto.texture = texture
+	$Label.set_text (str(indice))
+```
+
