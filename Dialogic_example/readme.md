@@ -32,10 +32,18 @@ Un timeline describe un diálogo. se almacena con extensión **.dtl**
 
 
 
+
+
 Acciones que se pueden hacer en un diálogo:
 
 ![](https://docs.dialogic.pro/media/introduction/events.png)
 
+
+
+### Inicar diálogo desde Godot 
+
+
+``Dialogic.start("nombre_dialogo")``
 
 
 ### Characters 
