@@ -126,7 +126,7 @@ En esta semana nos hemos dedicado a configurar el plugin de Sistema de Dialogo D
 
 Cómo exportar: 
 
-* [exportación](https://github.com/mgea/godot/tree/main/Dialogic_example)
+* [exportación](https://github.com/mgea/godot/wiki/exportar)
 
 
 
