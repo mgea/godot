@@ -117,10 +117,16 @@ En esta parte nos vamos a centrar en cómo manejar personajes (y colisiones)
 
 ## Sesión 7 Diálogos 
 
+En esta semana nos hemos dedicado a configurar el plugin de Sistema de Dialogo Dialogic y vér como usar para crear narrativas de personajes y cómo activar con colisiones. 
 
-### Diálogo (básico) con Dialogic 
+* [Ejemplo de Dialogic](https://github.com/mgea/godot/tree/main/Dialogic_example)
 
-### Diálogo con colisiones
+
+## Sesión 8 Exportar  
+
+Cómo exportar: 
+
+* [exportación](https://github.com/mgea/godot/tree/main/Dialogic_example)
 
 
 
