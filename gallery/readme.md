@@ -100,6 +100,7 @@ func _on_prev_pressed() -> void:
 #### Cargar una imagen dinámicamente con preload (alternativa 2) 
 
 Un problema (del modo anterior) es que no funciona bien al **exportar a html**
+
 Info: https://forum.godotengine.org/t/best-practice-for-loading-images-used-in-program/39247
 
 Como alternativa, se pueden **precargar** las imágenes en la lista antes de ser usadas. 
