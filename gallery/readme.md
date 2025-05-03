@@ -103,9 +103,14 @@ Un problema (del modo anterior) es que no funciona bien al **exportar a html**
 
 Info: https://forum.godotengine.org/t/best-practice-for-loading-images-used-in-program/39247
 
-Como alternativa, se pueden **precargar** las imágenes en la lista antes de ser usadas. 
+Si tenemos un nodo sprite2D llamado ``img``, se podría añadir dinámicamente una imagen mediante precarga del siguiente modo:
 
+```python
+  var image = preload("res://img/img1.png")
+  $img.texture = image
+```
 
+Si tenemos que seleccionar la imagen de entre una lista, se pueden **precargar** todas las imágenes en la lista antes de ser usadas. 
 
 
 ```python
