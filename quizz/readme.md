@@ -1,4 +1,5 @@
-QUIZZ juego de acertar varios trivial de preguntas 
+# QUIZZ 
+### juego de acertar varios trivial de preguntas 
 
 Codigo fuente (panel individual de quizz) - [quizz_panel](quizz_panel.zip)
 Codigo fuente (juego de varios quizz) - [quizz_game](quizz.zip)
