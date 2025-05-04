@@ -133,6 +133,8 @@ Cómo exportar:
 
 Quizz (tablero de preguntas)  y juego de colisionar para activar preguntas.
 * [Quizz](quizz)
+* demo en Itch.io -> https://cmiugr.itch.io/quizz
+  
 
 Drag & Drop 
 * 
