@@ -131,10 +131,11 @@ Cómo exportar:
 
 ## Sesión 9 Juegos  
 
-Quizz (tablero de preguntas) 
+Quizz (tablero de preguntas)  y juego de colisionar para activar preguntas.
 * [Quizz](quizz)
 
-
+Drag & Drop 
+* 
 
 <br>
 <br>
