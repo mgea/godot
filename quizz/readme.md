@@ -1,7 +1,13 @@
 # QUIZZ 
 ### juego de acertar varios trivial de preguntas 
 
+![img](quizz_world_scene.png)
+
 Codigo fuente (panel individual de quizz) - [quizz_panel](quizz_panel.zip)
+
+![img](quizz_portada.png)
+
+
 Codigo fuente (juego de varios quizz) - [quizz_game](quizz.zip)
 
 Demo en Itch.io -> https://cmiugr.itch.io/quizz
