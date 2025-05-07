@@ -136,8 +136,8 @@ Quizz (tablero de preguntas)  y juego de colisionar para activar preguntas.
 * demo en Itch.io -> https://cmiugr.itch.io/quizz
   
 
-Drag & Drop 
-* 
+Drag & Drop: arrastrar y soltar con varias alternativas. 
+* [Drag&Drop](drag_and_drop)
 
 <br>
 <br>
