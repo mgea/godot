@@ -1,5 +1,7 @@
 # Sonido 
 
+Código ejemplo se puede descargar aquí: [sonido_gobal.zip](sonido_global.zip)
+
 El sonido se puede usar como fondo (acompañando a la escena) o también para efectos como por ejemplo la pulsación de un botón. 
 
 
@@ -95,7 +97,14 @@ Al pulsar sobre el botón "+" se añade como global y crea una **variable global
 
 
 
+### Activar sonido de fondo desde cualquier escena
 
+YA en cualquier momento podemos activar el sonido haciendo uso de la variable global creada y la función que necesitemos, por ejemplo, si tenemos un botón para activar la música en una escena, habría que poner lo siguiente: 
+
+```
+func _on_button_pressed() -> void:
+	SonidoFondo.musica_fondo_on() 
+```
 
 
 
