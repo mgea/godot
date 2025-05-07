@@ -17,7 +17,7 @@ Cómo añadir un sonido desde script:
 <br>
 <br>
 
-### Sonidos de fondo 
+### Sonidos de fondo (GLOBAL)
 
 Un sonido ambiente funciona bien para una escena, pero si pasamos a otra escena, el **sonido se corta**
 
@@ -27,7 +27,9 @@ Video de cómo poner sonido de fondo: https://www.youtube.com/watch?app=desktop&
 
 Pasos:
   * creamos una nueva escena para gestionar el sonido de fondo
-  * 
+  * asociamos un script (gd) para almacenar funciones de manejo del sonido 
+
+
 
 
 
