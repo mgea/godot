@@ -28,27 +28,35 @@ $videostreamplayer.play()
 ```
 
 
+<br>
+<br>
 
 
-## GALERIA
+
+## GALERIA IMAGENES 
+
+(actualizado 7 Mayo 2025)
 
 
+#### Cargar una imagen dinámicamente  (alternativa 1: mejor para exportación)
 
-#### Cargar una imagen dinámicamente  (alternativa 1)
+El mejor modo de cargar una imagen desde código (en gdscript) es de la siguiente forma (con precarga), ya que otras formas dan [problemas al exportar a html] (https://forum.godotengine.org/t/best-practice-for-loading-images-used-in-program/39247)
+
+Si tenemos un nodo sprite2D llamado ``img``, se podría añadir dinámicamente una imagen mediante precarga del siguiente modo y añadirla a un nodo como propiedad de textura
 
 ```python
-  image = Image.load_from_file("res://img/img1.png")
-	var texture = ImageTexture.create_from_image(image)
-	$sprite2d = texture
+  var image = preload("res://img/img1.png")
+  $img.texture = image
 ```
 
+Eso funciona para cambiar la imagen de un nodo Sprite2D. Si queremos ir cambiando la imagen de ese nodo (como si fuese una galería de imágenes) entre un conjunto de imágenes, deberemos usar una **lista**. La listas es un tipo de variable que almacena un conjunto de datos ordenados, y podemos acceder a cada uno de ellos por su posición (más info en wiki: https://github.com/mgea/godot/wiki/Listas)
 
-Es importante conocer cómo funcionan las listas (para almacenar nombres de imágenes) https://github.com/mgea/godot/wiki/Listas 
+> ¿Qué es un array? (video): https://godot.land/godot-gdscript-arrays/
 
+El script que hay que introducir en la escena de la Galería deberia tener:
 
-
-El script que hay que introducir en la escena de la Galería deberia tener: 
-* una lista (usando [ ] ) con todos los enlaces a las imágenes (con todo el camino desde res://) entre comillas y separadas por comas.
+* una lista/array (usando [ ] ) con todos los enlaces a las imágenes (con todo el camino desde res://) entre comillas y separadas por comas.
+  * es recomendable **precargar** todas las imágenes en la lista antes de ser usadas. 
 * una variable numerica (indice) para saber cual es la imagen actual
 * una variable numerica (total) para saber cuantas imágenes hay en la lista
   
@@ -57,80 +65,47 @@ extends Node2D
 
 var image
 
-var indice = 0
-var total = 4
+var indice = 0    # el indice almacena el lugar actual (imagen) de la lista 
+var total = 3
 
-var imglist = [ "res://img/banksy-84.png",
-                "res://img/Banksy-Bethlehem-22.jpg",
-		"res://img/Banskiy-nina-cacheando.jpg",
-		"res://img/Bansky-Jobs.jpg" ]
+var imglist = [
+        preload("img/banksy-84.png"),
+	preload("img/Banksy-Bethlehem-22.jpg"),
+	preload("img/Banskiy-nina-cacheando.jpg")
+        ]	
  
 
 ```
+
 
 Cada vez que se pulse un botón (adelante) se debería actualizar la siguiente imagen en el objeto Sprite2D
 
 ```python
 func _on_next_pressed() -> void:
 	indice = indice +1 
-	if (indice>=total_img):
-		indice=0           # para que sea cíclico
-	image = Image.load_from_file(imglist[indice])
-	$foto.texture = texture
-	$Label.set_text (str(indice))
+	if (indice>=total):
+		indice=0                   # para que sea cíclico, cuando llega a última vuelve a primera
+	$foto.texture = imglist[indice]    # asigna como textura la imagen precargada en lista
 ```
 
-Cada vez que se pulse un botón (atrás) se debería actualizar la  imagen anterior en el objeto Sprite2D
+
+Del mismo modo, se haría con el botón hacia atrás. Se recorre en modo inverso las imágenes. 
 
 
 ```python
-func _on_prev_pressed() -> void:
+func _on_next_pressed() -> void:
 	indice = indice -1 
 	if (indice<0):
-		indice=total_img-1 # para que sea cíclico
-	image = Image.load_from_file(imglist[indice])
-	var texture = ImageTexture.create_from_image(image)
-	$foto.texture = texture
-	$Label.set_text (str(indice))
+		indice=total-1             # para que sea cíclico, vuelve a última imagen
+	$foto.texture = imglist[indice]    # asigna como textura la imagen precargada en lista
 ```
 
-----
 
-
-#### Cargar una imagen dinámicamente con preload (alternativa 2) 
-
-Un problema (del modo anterior) es que no funciona bien al **exportar a html**
-
-Info: https://forum.godotengine.org/t/best-practice-for-loading-images-used-in-program/39247
-
-Si tenemos un nodo sprite2D llamado ``img``, se podría añadir dinámicamente una imagen mediante precarga del siguiente modo:
-
-```python
-  var image = preload("res://img/img1.png")
-  $img.texture = image
-```
-
-Si tenemos que seleccionar la imagen de entre una lista, se pueden **precargar** todas las imágenes en la lista antes de ser usadas. 
-
-
-```python
-
-var imglist = [
-	preload("img/banksy-84.png"),
-	preload("img/Banksy-Bethlehem-22.jpg"),
-	preload("img/Banskiy-nina-cacheando.jpg")
-	]
-
-
-func _on_next_pressed() -> void:
-	indice = indice +1 
-	if (indice>=total_img):
-		indice=0           # para que sea cíclico
-	$foto.texture = imglist[indice]    ## asigna como textura la imagen precargada en lista
+<br>
+<br>
 
 
 
-```
 
 
 
