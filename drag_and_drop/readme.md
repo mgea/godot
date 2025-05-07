@@ -6,7 +6,7 @@ Descargar [Código ejemplo](dragdrop.zip)
 
 Ver en Itch.io -> https://cmiugr.itch.io/dragdrop
 
-
+![Drag&Drop](dragdrop.png)
 
 
 Creamos dos tipos de objetos: 
@@ -33,6 +33,7 @@ Para que funcione como variable global, hay que incluir este script en **Configu
 
 Del mismo modo, vamos a **Configuracion del proyecto>Mapas de entrada** y podemos crear un nombre de input personalizado ("click") asociado al Botón Inzquierdo del Ratón. Más adelante usaremos este nombre para saber si se ha pulsado el botón del mouse.
 
+![Inputs](drag_inputs.png)
 
 
 
@@ -46,6 +47,8 @@ StaticBody2D
 |- CollisionShape
 |- ColorRect 
 ```
+
+![Inputs](drag_dropable)
 
 EL script asociado permite "activar" las zonas (pasar de color invisible a visible) cuando haya algun objeto arrastrándose, de modo que indicamos dónde podriamos ubicarlo. 
 
@@ -88,6 +91,7 @@ Nodo2D
 
 El movible tiene una imagen (sprite2D) y un área que permite detectar si ha colisionado o no. 
 
+![Inputs](drag_movible)
 
 
 #### Variables
