@@ -1,0 +1,40 @@
+[gd_scene load_steps=4 format=3 uid="uid://b8vew0u72fs2v"]
+
+[ext_resource type="Script" uid="uid://bcv0l4uuwe57c" path="res://world.gd" id="1_aqk2v"]
+[ext_resource type="PackedScene" uid="uid://kh8ttckargjv" path="res://dropable.tscn" id="1_f3sb7"]
+[ext_resource type="PackedScene" uid="uid://cnso5mc8u0d8d" path="res://movible.tscn" id="3_tlwt5"]
+
+[node name="world" type="Node2D"]
+script = ExtResource("1_aqk2v")
+
+[node name="lab" type="Label" parent="."]
+offset_left = 38.0
+offset_top = 470.0
+offset_right = 312.0
+offset_bottom = 572.0
+theme_override_font_sizes/font_size = 24
+text = "is_dragable
+"
+
+[node name="Label" type="Label" parent="."]
+offset_left = 423.0
+offset_top = 44.0
+offset_right = 523.0
+offset_bottom = 67.0
+theme_override_font_sizes/font_size = 36
+text = "Drag & Drop "
+
+[node name="caja1" parent="." instance=ExtResource("1_f3sb7")]
+position = Vector2(523, 491)
+
+[node name="caja2" parent="." instance=ExtResource("1_f3sb7")]
+position = Vector2(832, 488)
+
+[node name="caja3" parent="." instance=ExtResource("1_f3sb7")]
+position = Vector2(980, 97)
+
+[node name="ogro1" parent="." instance=ExtResource("3_tlwt5")]
+position = Vector2(966, 328)
+
+[node name="ogro2" parent="." instance=ExtResource("3_tlwt5")]
+position = Vector2(222, 291)
