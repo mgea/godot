@@ -52,6 +52,7 @@ Todos los ejemplos están disponibles en: https://cmiugr.itch.io/
 
  
 <br>
+<br>
 
 ## Sesión 2 Godot (multimedia) 
 
@@ -69,6 +70,8 @@ Conceptos:
 * [BBAAteaser](bbaateaser) - animacion por linea de tiempo con jerarquías animadas y reutilización de escenas
 
 
+<br>
+<br>
 
 
 ## Sesión 3 Godot (GUI) 
@@ -85,6 +88,8 @@ Conceptos:
 
 * HUD 
 
+<br>
+<br>
 
 ## Sesión 4 Godot (audio & character animation ) 
 
@@ -97,6 +102,8 @@ Animación con sprite (usando botones, no movimiento con teclas)
 
 * [Sprite2Dbasic](animatedSprite_basic)
 
+<br>
+<br>
 
 
 ## Sesión 5 Godot (video y galería) 
@@ -107,6 +114,8 @@ En esta parte nos vamos a centrar en cómo manejar stream de video y cómo crear
 * [Galería](gallery) - Incluye manejo de video, listas y galería de imágenes.
 
 
+<br>
+<br>
 
 ## Sesión 6 Mover personje 2D (inputs y colisiones) 
 
@@ -118,6 +127,8 @@ En esta parte nos vamos a centrar en cómo manejar personajes (y colisiones)
 
 
 
+<br>
+<br>
 
 
 ## Sesión 7 Diálogos 
@@ -126,12 +137,17 @@ En esta semana nos hemos dedicado a configurar el plugin de Sistema de Dialogo D
 
 * [Ejemplo de Dialogic](https://github.com/mgea/godot/tree/main/Dialogic_example)
 
+<br>
+<br>
 
 ## Sesión 8 Exportar  
 
 Cómo exportar: 
 
 * [exportación](https://github.com/mgea/godot/wiki/exportar)
+
+<br>
+<br>
 
 
 ## Sesión 9 Juegos  
