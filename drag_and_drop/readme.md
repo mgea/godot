@@ -191,11 +191,12 @@ func _process(delta: float) -> void:
 
 
 
-Las variables que controlan todo el movimiento son: 
+Las variables que controlan todo el movimiento (y segun el orden de aplicación) son: 
 
-* ``global.is_dragging=true``   si se está moviendo con el ratón, false en caso contrario
-* ``is_inside_dropable= true`` si se ha colisionado con un objeto que es de tipo hueco (y pertenece al grupo de "dropables")
 * ``draggable=true`` si el mouse está "encima" del objeto movible pero todavía no se ha pulsado click (esta preparado para el movimiento)
+* ``global.is_dragging=true``  si se está moviendo con el ratón, false en caso contrario
+* ``is_inside_dropable= true`` si se ha colisionado con un objeto que es de tipo hueco (y pertenece al grupo de "dropables")
+
 
  
 
