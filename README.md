@@ -13,7 +13,7 @@ La creación de contenido multimedia con ordenador ha ido evolucionando a lo lar
     - Wickeditor - https://www.wickeditor.com/
 - Game engine:
   Los motores de videojuegos es una estupenda alternativa para la creación multimedia, ya qe son capaces de manejar escenas con multiples medios de manera muy eficiente, y resuelve de forma 
-adecuada animaciones (cinemática), los player (movimiento de personajes), colisiones, manipulación (drag & drop), dinámica y control de física etc. Entre las distintas plataformas existentes, godot es una muy biena opción para la creación multimedia por:
+adecuada animaciones (cinemática), los player (movimiento de personajes), colisiones, manipulación (drag & drop), dinámica y control de física etc. Entre las distintas plataformas existentes, godot es una muy buena opción para la creación multimedia por:
   * fácil instalación (un solo fichero que se descarga y funciona sin mayores problemas de instalación)
   * open source & free, desarrollado por una comunidad en constante evolución
   * lenguaje de scrip gdscript sencillo (basado en python) 
