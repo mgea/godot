@@ -1,4 +1,4 @@
-## Drag&Drop 
+# Drag&Drop 
 
 Video tutorial: https://www.youtube.com/watch?v=uhgswVkYp0o
 
@@ -16,7 +16,7 @@ Creamos dos tipos de objetos:
 
 
 
-#### Variables globales 
+### Variables globales 
 
 Todos los objetos de la escena deben saber si hay un objeto moviéndose. Creamos uns variable global que se debe meter en un guión (globales.gd) que contiene: 
 
@@ -28,17 +28,17 @@ var is_dragging = false
 Para que funcione como variable global, hay que incluir este script en **Configuracion del proyecto>Globales**, que permite añadir scripts.
 
 
+> ¿qué son las variables globales y cómo crear? (https://github.com/mgea/godot/wiki/Variables#variables-globales) 
 
-#### Funciones de Input: ratón 
+
+### Funciones de Input: ratón 
 
 Del mismo modo, vamos a **Configuracion del proyecto>Mapas de entrada** y podemos crear un nombre de input personalizado ("click") asociado al Botón Inzquierdo del Ratón. Más adelante usaremos este nombre para saber si se ha pulsado el botón del mouse.
 
-![Inputs](drag_inputs.png)
+![inputs](drag_inputs.png)
 
 
-
-
-#### Huecos (dropable.tscn)
+### Huecos (dropable.tscn)
 
 Los huecos son  objeto estáticos formados por un área de colisión y un rectángulo con color (tambien podría ser una imagen)
 
@@ -48,7 +48,7 @@ StaticBody2D
 |- ColorRect 
 ```
 
-![Inputs](drag_dropable)
+![Inputs](drag_dropable.png)
 
 EL script asociado permite "activar" las zonas (pasar de color invisible a visible) cuando haya algun objeto arrastrándose, de modo que indicamos dónde podriamos ubicarlo. 
 
@@ -78,7 +78,7 @@ Todos los objetos que actúan como huecos pueden agruparse mediante una etiqueta
 
 
 
-#### Móviles (movible.tscn)
+### Móviles (movible.tscn)
 
 
 
@@ -91,10 +91,10 @@ Nodo2D
 
 El movible tiene una imagen (sprite2D) y un área que permite detectar si ha colisionado o no. 
 
-![Inputs](drag_movible)
+![Inputs](drag_movible.png)
 
 
-#### Variables
+### Variables
 
 Variables internas necesarias para conocer datos del objeto: 
 
