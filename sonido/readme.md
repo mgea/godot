@@ -99,7 +99,7 @@ Al pulsar sobre el botón "+" se añade como global y crea una **variable global
 
 ### Activar sonido de fondo desde cualquier escena
 
-YA en cualquier momento podemos activar el sonido haciendo uso de la variable global creada y la función que necesitemos, por ejemplo, si tenemos un botón para activar la música en una escena, habría que poner lo siguiente: 
+Ya en cualquier momento podemos activar el sonido haciendo uso de la variable global creada y la función que necesitemos, por ejemplo, si tenemos un botón para activar la música en una escena, habría que poner lo siguiente: 
 
 ```
 func _on_button_pressed() -> void:
@@ -107,6 +107,19 @@ func _on_button_pressed() -> void:
 ```
 
 
+### Subir/bajar volumen con Slider
 
+Para ello, usaremos un Slider vertical/horizontal (``HSlider`` o ``VSlider``) que añadiremos a la escena (mundo). El método que hay que usar para saber si se ha modificado el valor actual de Slider es la siguiente, que devuelve un valor que usaremos para modificar volumen (en decibelios)
+
+Recordad que ese valor de decibelios puede rondar entre -20 y 20, por lo que habrá que ajustar los valores mínimo y máximo del Slider.
+
+![slider](sonido_global_slider3.png)
+
+```
+func _on_h_slider_value_changed(value: float) -> void:
+	SonidoFondo.musica_fondo_volumen(value)
+
+
+```
 
 
