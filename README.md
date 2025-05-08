@@ -11,7 +11,9 @@ La creación de contenido multimedia con ordenador ha ido evolucionando a lo lar
   - Editores basados en filosofía Flash 
     - Hippani Animator - https://www.hippani.com/
     - Wickeditor - https://www.wickeditor.com/
-- Game engine  
+- Game engine:
+  Los motores de videojuegos es una estupenda alternativa para la creación multimedia, ya qe son capaces de manejar escenas con multiples medios de manera muy eficiente, y resuelve de forma 
+adecuada animaciones (cinemática y dinámica), los player (movimiento de personajes), colisiones, manipulación (drag & drop), dinámica y control de física etc.
 
 <br> 
 <br>
