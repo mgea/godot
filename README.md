@@ -86,7 +86,7 @@ Conceptos:
 
 * [GUI](GUI) - Controles y look&feel
 
-* HUD 
+* [HUD](HUD) - Paneles de control con elementos del UI (CanvasLayer), se muestran encima como capas y se pueden mostrar/ocultar. 
 
 <br>
 <br>
