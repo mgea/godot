@@ -72,11 +72,11 @@ func _process(delta: float) -> void:
 
 ```
 
-Grupo: **dropable**
+### Grupo dropable
 
-Todos los objetos que actúan como huecos pueden agruparse mediante una etiqueta. Para ello, dentro de las propiedades de señales, hay una opcion de grupos. Creamos un nuevo grupo llamado **dropable** (lugar donde colocar un objeto movible) y activamos.  
+Todos los objetos que actúan como huecos pueden agruparse mediante una etiqueta. Para ello, dentro de las propiedades de señales, hay una opción de crear etiquetas para organizar grupos (de enemigos, de zonas calientes...). Creamos un nuevo grupo llamado **dropable** (lugar donde colocar un objeto movible) y activamos.  
 
-
+![grupos](https://docs.godotengine.org/en/stable/_images/groups_node_tab.webp)
 
 ### Móviles (movible.tscn)
 
