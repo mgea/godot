@@ -175,7 +175,15 @@ Sonido de fondo global (que se mantiene entre escenas)
 
 ## Sesión 10 Almacenar y recuperar datos en fichero JSON 
 
+Cargar datos en ficheros JSON
 * [load_json](fileIO)
+
+
+
+
+<br>
+<br>
+<br>
 
 
 ## RECURSOS E INFORMACION SOBRE GODOT
