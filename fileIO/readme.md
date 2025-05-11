@@ -1,5 +1,8 @@
 # FileIO
 
+Codigo del ejemplo: [FileIO](load_json.zip)
+
+
 En este ejercicio veremos cómo cargar datos desde ficheros y guardar. La forma que vamos a usar es mediante la creación de ficheros JSON (https://docs.godotengine.org/en/stable/classes/class_json.html) 
 > Qué es JSON? https://www.hostinger.com/es/tutoriales/que-es-json
 
