@@ -169,6 +169,15 @@ Sonido de fondo global (que se mantiene entre escenas)
 <br>
 
 
+<br>
+<br>
+
+
+## Sesión 10 Almacenar y recuperar datos en fichero JSON 
+
+* [load_json](fileIO)
+
+
 ## RECURSOS E INFORMACION SOBRE GODOT
 
 * Assets (biblioteca de recursos) https://github.com/mgea/godot/wiki/Assets
