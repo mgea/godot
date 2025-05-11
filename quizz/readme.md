@@ -2,13 +2,28 @@
 ### juego de acertar varios trivial de preguntas 
 
 ![img](quizz_world_scene.png)
-
-Codigo fuente (panel individual de quizz) - [quizz_panel](quizz_panel.zip)
-
-![img](quizz_portada.png)
-
-
+Juego completo 
 Codigo fuente (juego de varios quizz) - [quizz_game](quizz.zip)
+
+
+
+
+
+
+<br>
+<br>
+
+
+### Utilidades 
+
+*  Codigo fuente (panel individual de quizz) - [quizz_panel](quizz_panel.zip)
+*  Versión 2 que almacena datos en fichero json -  [quizz_panel json](quizz_panel_json.zip)
+
+   ![img](quizz_portada.png)
+
+
+
+
 
 Demo en Itch.io -> https://cmiugr.itch.io/quizz
 
