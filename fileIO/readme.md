@@ -93,4 +93,9 @@ POsee dos paneles:
 
 
 
+### Ejemplo: almacenar datos de un QUIZZ 
+
+Revisar ejemplo de [QUIZZ](../quizz) donde hay una version simplificada que permite recuperar datos de fichero
+https://github.com/mgea/godot/blob/main/quizz/quizz_panel_json.zip 
+
 
