@@ -4,7 +4,7 @@
 ![img](quizz_world_scene.png)
 Juego completo 
 Codigo fuente (juego de varios quizz) - [quizz_game](quizz.zip)
-
+Demo en Itch.io -> https://cmiugr.itch.io/quizz
 
 
 
