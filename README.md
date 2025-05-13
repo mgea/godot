@@ -169,8 +169,7 @@ Sonido de fondo global (que se mantiene entre escenas)
 <br>
 
 
-<br>
-<br>
+
 
 
 ## Sesión 10 Almacenar y recuperar datos en fichero JSON 
@@ -178,6 +177,8 @@ Sonido de fondo global (que se mantiene entre escenas)
 Cargar datos en ficheros JSON
 * [load_json](fileIO)
 
+<br>
+<br>
 
 ## Sesión 11 Juegos: Timer para recoger objetos con temporizador  
 
