@@ -179,6 +179,7 @@ Cargar datos en ficheros JSON
 * [load_json](fileIO)
 
 
+## Sesión 11 Juegos: Timer para recoger objetos con temporizador  
 
 
 <br>
