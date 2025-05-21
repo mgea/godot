@@ -9,4 +9,16 @@ Hay que tener en cuenta los siguiente:
 
 Indicar que es un tipo de proyecto HTML (no un descargable) que se puede mostrar en el navegador directamtente
 
+![NuevoJuego](itch_new.png)
 
+
+
+![Subir](itch_subir.png)
+
+
+
+![visibilidad](itch_visibility.png)
+
+
+
+![NuevoPricing](itch_pricing.png)
