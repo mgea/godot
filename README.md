@@ -188,6 +188,12 @@ Cargar datos en ficheros JSON
 <br>
 
 
+## Sesión 12 Publicar en Internet 
+
+Publicación en itch.io
+* [Itch.io](itchio)
+
+
 ## RECURSOS E INFORMACION SOBRE GODOT
 
 * Assets (biblioteca de recursos) https://github.com/mgea/godot/wiki/Assets
