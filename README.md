@@ -165,6 +165,15 @@ Drag & Drop: arrastrar y soltar con varias alternativas.
 Sonido de fondo global (que se mantiene entre escenas) 
 
 * [sonido global](sonido)
+
+<br>
+
+Crear numeros aleatorios
+
+* [random](random_fruit)
+* 
+
+
 <br>
 <br>
 
@@ -192,6 +201,8 @@ Cargar datos en ficheros JSON
 
 Publicación en itch.io
 * [Itch.io](itchio)
+
+
 
 
 ## RECURSOS E INFORMACION SOBRE GODOT
