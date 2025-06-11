@@ -24,7 +24,7 @@ adecuada animaciones (cinemática), los player (movimiento de personajes), colis
 
 ## Publicación de ejercicios
 
-La mayoría de los ejercicios está publicados para jugar online en **cuenta de itch.io** con los ejercicios de clase: https://cmiugr.itch.io/ 
+La mayoría de los ejercicios está publicados para jugar online en **cuenta de itch.io**: https://cmiugr.itch.io/ 
 
 
 ## Sesión 1 Godot (game engine) 
