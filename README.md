@@ -22,6 +22,10 @@ adecuada animaciones (cinemática), los player (movimiento de personajes), colis
 <br>
 
 
+
+Cuenta de itch.io con los ejercicios de clase: https://cmiugr.itch.io/ 
+
+
 ## Sesión 1 Godot (game engine) 
 
 [Godot engine](https://godotengine.org/)  para Creación Multimedia Interactiva 
