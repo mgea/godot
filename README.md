@@ -18,8 +18,8 @@ Contenidos:
 La creación de contenido multimedia con ordenador ha ido evolucionando a lo largo del tiempo. [Timeline](https://mgea.github.io/PeriodismoMultimedia/content/resources/timeline.html)
 
 - Adobe/Macromedia [Flash](https://www.hackaboss.com/blog/tecnologia-adobe-flash)  fue la gran apuesta multimedia en internet en los años 90, pero su tecnología se quedó obsoleta con las mejoras de HTML5 y sus problemas de seguridad hacia 2010. [Historia](https://www.youtube.com/watch?v=aaOihL8mvDM)
-
-<a href="https://www.youtube.com/watch?v=aaOihL8mvDM"> <img src="https://i.ytimg.com/vi/aaOihL8mvDM/hq720.jpg" height="150">  </a> 
+ 
+     <a href="https://www.youtube.com/watch?v=aaOihL8mvDM"> <img src="https://i.ytimg.com/vi/aaOihL8mvDM/hq720.jpg" height="150">  </a> 
 
 
 - Multimedia Authoring Tools (https://atomisystems.com/elearning/multimedia-authoring-tools-definition-features-and-examples/)
