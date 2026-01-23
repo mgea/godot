@@ -22,13 +22,13 @@ La creación de contenido multimedia con ordenador ha ido evolucionando a lo lar
      <a href="https://www.youtube.com/watch?v=aaOihL8mvDM"> <img src="https://i.ytimg.com/vi/aaOihL8mvDM/hq720.jpg" height="150">  </a> 
 
 
-- Multimedia Authoring Tools (https://atomisystems.com/elearning/multimedia-authoring-tools-definition-features-and-examples/)
+- Multimedia **Authoring Tools** (https://atomisystems.com/elearning/multimedia-authoring-tools-definition-features-and-examples/)
   - [Evolución](https://mgea.github.io/content/resources/autoring_tools-flashcards.html) 
-- HTML5 y librerías de animación en Javascript - https://www.digitalogy.co/blog/top-javascript-animation-libraries/
+- **HTML5** y librerías de animación en Javascript - https://www.digitalogy.co/blog/top-javascript-animation-libraries/
   - Editores basados en filosofía Flash 
     - Hippani Animator - https://www.hippani.com/
     - Wickeditor - https://www.wickeditor.com/
-- Game engine:
+- **Game engine**:
   Los motores de videojuegos es una estupenda alternativa para la creación multimedia, ya qe son capaces de manejar escenas con multiples medios de manera muy eficiente, y resuelve de forma 
 adecuada animaciones (cinemática), los player (movimiento de personajes), colisiones, manipulación (drag & drop), dinámica y control de física etc. Entre las distintas plataformas existentes, godot es una muy buena opción para la creación multimedia por:
   * fácil instalación (un solo fichero que se descarga y funciona sin mayores problemas de instalación)
