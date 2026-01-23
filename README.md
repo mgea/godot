@@ -2,6 +2,8 @@
 
 Apuntes y ejercicios para para crear contenido multimedia interactiva usando Godot Engine. 
 
+![godot](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWprtkvYqYvWB8iCVZ2N5bT6AcjAzcDGgpAg&s) 
+
 Contenidos: 
 * [¿Qué es Godot?](https://github.com/mgea/godot/wiki)  -> Contenido en formato Wiki sobre Godot
 * Introducción a la Multimedia Interactiva
@@ -33,10 +35,10 @@ adecuada animaciones (cinemática), los player (movimiento de personajes), colis
 <br>
 
 
-## Publicación de ejercicios
+# Ejercicios sobre Godot organizada en sesiones
 
 La mayoría de los ejercicios está publicados para jugar online en **cuenta de itch.io**: https://cmiugr.itch.io/ 
-
+<br>
 
 ## Sesión 1 Godot (game engine) 
 
