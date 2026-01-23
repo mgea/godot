@@ -41,13 +41,11 @@ adecuada animaciones (cinemática), los player (movimiento de personajes), colis
 La mayoría de los ejercicios está publicados para jugar online en **cuenta de itch.io**: https://cmiugr.itch.io/ 
 <br>
 
-## Sesión 1 Godot (game engine) 
+## Sesión 1: Conceptos básicos con Godot (game engine) 
 
 [Godot engine](https://godotengine.org/)  para Creación Multimedia Interactiva 
 
 <img src="https://kidscancode.org/godot_recipes/3.x/img/godot3_logo.png" width="250px" />
-
-
 
 
 
@@ -67,13 +65,11 @@ La mayoría de los ejercicios está publicados para jugar online en **cuenta de 
   
  * [Bansky](bansky) Pasar de una escena a otra con botones
 
-Todos los ejemplos están disponibles en: https://cmiugr.itch.io/
-
  
 <br>
 <br>
 
-## Sesión 2 Godot (multimedia) 
+## Sesión 2 Elementos multimedia (imágenes, texto y animación)  
 
 Conceptos: 
 
@@ -93,7 +89,7 @@ Conceptos:
 <br>
 
 
-## Sesión 3 Godot (GUI) 
+## Sesión 3: GUI: Interfaz gráfico de usuario con Godot
 
 Conceptos:
 
@@ -110,7 +106,7 @@ Conceptos:
 <br>
 <br>
 
-## Sesión 4 Godot (audio & character animation ) 
+## Sesión 4 Multimedia avanzada con Godot: audio & character animation 
 
 Uso de audio y canales:
 
@@ -125,10 +121,9 @@ Animación con sprite (usando botones, no movimiento con teclas)
 <br>
 
 
-## Sesión 5 Godot (video y galería) 
+## Sesión 5. Incrustación de videos y creación de galería de imágenes en Godot 
 
 En esta parte nos vamos a centrar en cómo manejar stream de video y cómo crear una galería sencilla de imágenes. 
-
 
 * [Galería](gallery) - Incluye manejo de video, listas y galería de imágenes.
 
@@ -136,7 +131,7 @@ En esta parte nos vamos a centrar en cómo manejar stream de video y cómo crear
 <br>
 <br>
 
-## Sesión 6 Mover personje 2D (inputs y colisiones) 
+## Sesión 6: Sprites en Godot:  mover personje 2D (inputs y colisiones) 
 
 En esta parte nos vamos a centrar en cómo manejar personajes (y colisiones)
 
@@ -150,7 +145,7 @@ En esta parte nos vamos a centrar en cómo manejar personajes (y colisiones)
 <br>
 
 
-## Sesión 7 Diálogos 
+## Sesión 7: Sistema de Diálogos (plugin dialogic)
 
 En esta semana nos hemos dedicado a configurar el plugin de Sistema de Dialogo Dialogic y vér como usar para crear narrativas de personajes y cómo activar con colisiones. 
 
@@ -159,7 +154,7 @@ En esta semana nos hemos dedicado a configurar el plugin de Sistema de Dialogo D
 <br>
 <br>
 
-## Sesión 8 Exportar  
+## Sesión 8: Exportar  
 
 Cómo exportar: 
 
@@ -169,7 +164,7 @@ Cómo exportar:
 <br>
 
 
-## Sesión 9 Juegos  
+## Sesión 9: Juegos  
 
 Quizz (tablero de preguntas)  y juego de colisionar para activar preguntas.
 * [Quizz](quizz)
@@ -200,7 +195,7 @@ Crear numeros aleatorios
 
 
 
-## Sesión 10 Almacenar y recuperar datos en fichero JSON 
+## Sesión 10: Almacenar y recuperar datos en fichero JSON 
 
 Cargar datos en ficheros JSON
 * [load_json](fileIO)
@@ -208,7 +203,7 @@ Cargar datos en ficheros JSON
 <br>
 <br>
 
-## Sesión 11 Juegos: Timer para recoger objetos con temporizador  
+## Sesión 11 Juegos II: Timer para recoger objetos con temporizador  
 
 
 <br>
@@ -216,7 +211,7 @@ Cargar datos en ficheros JSON
 <br>
 
 
-## Sesión 12 Publicar en Internet 
+## Sesión 12: Publicar en Internet 
 
 Publicación en itch.io
 * [Itch.io](itchio)
