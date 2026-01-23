@@ -11,8 +11,9 @@ Contenidos:
 
 <br>
 
-## Introducción a la Multimedia interactiva 
+# Introducción a la Multimedia interactiva 
 
+<img src="https://cdn-icons-png.flaticon.com/512/11998/11998671.png" height="200">
 
 La creación de contenido multimedia con ordenador ha ido evolucionando a lo largo del tiempo. [Timeline](https://mgea.github.io/content/resources/timeline.html)
 
