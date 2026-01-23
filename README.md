@@ -1,4 +1,15 @@
-# Multimedia interactiva 
+# Godot: Multimedia interactiva
+
+Apuntes y ejercicios para para crear contenido multimedia interactiva usando Godot Engine. 
+
+Contenidos: 
+* [¿Qué es Godot?](https://github.com/mgea/godot/wiki)  -> Contenido en formato Wiki sobre Godot
+* Introducción a la Multimedia Interactiva
+* Ejercicios sobre Godot organizada en sesiones
+
+<br>
+
+## Introducción a la Multimedia interactiva 
 
 
 La creación de contenido multimedia con ordenador ha ido evolucionando a lo largo del tiempo. [Timeline](https://mgea.github.io/content/resources/timeline.html)
