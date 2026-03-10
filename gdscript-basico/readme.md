@@ -4,6 +4,11 @@ Ejercicios sencillos sobre sintaxis del lenguaje GDScript y operaciones básicas
 
 Revisar sintaxis en [GDSCRIPT](https://github.com/mgea/godot/wiki/GDScript)
 
+* Crear variables y hacer operaciones con las mismas
+* Usar funciones propias de GDScript (randi)
+* Bloques de condicionales
+* Crear array/colecciones 
+
 Vamos a usar GDScript Playground: https://gdscript-online.github.io/
 
 
