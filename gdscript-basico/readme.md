@@ -1,6 +1,6 @@
 ## gdscript-basico 
 
-Ejercicio sencillo sobre sintaxis del lenguaje GDScript y operaciones básicas 
+Ejercicios sencillos sobre sintaxis del lenguaje GDScript y operaciones básicas 
 
 Revisar sintaxis en [GDSCRIPT](https://github.com/mgea/godot/wiki/GDScript)
 
