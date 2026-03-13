@@ -113,6 +113,9 @@ Mientras que en este otro, el corazón se quedará en la misma posición (no se 
 ![Nodos anidamiento incorrecto](arbol_mal.png)   
 
 
+### Publicación en Itch.io 
+
+https://cmiugr.itch.io/heartgirl
 
 
 
