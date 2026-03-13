@@ -47,7 +47,7 @@ EL latido de corazón será una **escena** que va a tener como comportamiento ha
 
 Hay que tener cuidado con los tamaños de los objetos originales (tamaño de imagen), ya que la escala depende de su posiciones iniciales. Los puntos importantes a tener en cuenta son: 
 
-- tamaños relativos de la imagen de la niña orignial y de la imagen del corazón para saber cómo aplicar escalado
+- tamaños relativos de la imagen de la niña original y de la imagen del corazón para saber cómo aplicar escalado
 - Ubicación del objeto (corazon) en pantalla. Si no está centrado en el origen de coordenadas puede sufrir desplazamiento
 - Incrementos (para que el corazón no vaya ni muy rápido ni muy lento)
 - tamaño final de escala (para que vuelva a su estado original) 
