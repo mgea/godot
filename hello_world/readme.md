@@ -70,6 +70,10 @@ Creamos nuevamente otra escena con una imagen de godot pero que ahora su script 
 
 ### Paso Escena 3 con la composición final 
 
+La jerarquía de nodos en las escenas permite la **reutilización** de escenas. Esto nos permite crear escenas complejas partiendo de otras escenas más simples. La escena final será una jerarquía de escenas 
+
+
+
 La composición final incluye múltiples instancias de escenas de godots que se mueven en horizontal (``godot-h.tscn``) y en vertical (``godot-v.gd``)
 
 ```mermaid
@@ -81,6 +85,9 @@ graph LR
     A --> F(Sprite2D fondo)
 
 ```
+
+
+
 
 
 ### Posibles mejoras 
