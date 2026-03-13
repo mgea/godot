@@ -57,12 +57,66 @@ Para ajustar todos esos datos, es recomendable **visualizar por Consola** los va
 ![escena heart.tscn](heart_code.png)
 
 Es importante darse cuenta que los valores de factor de escala ``var escala = 0.0018`` y la condición de finalización de ampliación ``if scale.x>0.1:`` deben ser ajustados dependiendo de los tamaños de la imagen original, para ello, es importante mostrar el factor de escala actual por Consola ``print(scale.x)`` para ver cuanto es el tamaño actual. 
-La imagen está situada en el origen, para que no se desplace. Si la queremos ver mejor mientras ajustamos las escalas podríamos hacer el movimiento a una posición concreta con ``position.x=300`` y  ``position.y=300`` pero que tenemos que quitar (por eso están como comentarios) cuando finalicemos el ajuste.
+La imagen está situada en el origen de coordenadas. Si la queremos ver mejor mientras ajustamos las escalas podríamos mover a una posición concreta con ``position.x=300`` y  ``position.y=300`` pero que tenemos que quitar (por eso están como comentarios) cuando finalicemos el ajuste.
+
+
+```GDScript
+extends Sprite2D
+# latido.gd  
+
+# factor de escala que vamos a aplicar en X e Y 
+var escala = 0.0018 
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	scale.x=scale.x+ escala
+	scale.y=scale.y+ escala	
+	# Muestra por consola el valor de escala aplicado
+	print(scale.x)
+	## si es mayor de este valor se escala al valor original
+	if scale.x>0.1:
+		scale.x=0.05
+		scale.y=0.05 
+	#position.x=300
+	#position.y=300
+
+```
 
 
 
-### Mostrar Sprite 2D 
+### Girl con movimiento 
+
+
+La siguiente escena es crear la niña, que va a tener un movimiento asociado (mover en horizontal por ejemplo). La forma de hacerlo es similar al ejercicio [Hello World](../hello_world)   
+
+![Niña mueve](girl_move.png)   
 
 
 
-hello_girl
+
+
+### Girl con corazon 
+
+Finalmente, añadimos una instancia del ``heart.tscn`` a la niña, pero es importante saber cómo organizar la jerarquía de nodos en la escena. Las dependencias hace que se hereden comportamientos por lo que en este caso el corazón se moverá con la niña (es una escena anidada) 
+
+![Nodos anidamiento correcto](arbol_ok.png)   
+
+
+
+Mientras que en este otro, el corazón se quedará en la misma posición (no se moverá con la niña), ya que no hereda ese comportamiento. 
+
+![Nodos anidamiento incorrecto](arbol_mal.png)   
+
+
+
+
+
+---
+
+*Ejercicio realizado en clase por primera vez el 12/03/2026*
+
