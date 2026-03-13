@@ -64,9 +64,11 @@ La mayoría de los ejercicios está publicados para jugar online en **cuenta de 
 ### Ejemplos
 
 
- * [Hello World](hello_world) Animación básica de un sprite con  GDScript por Consola
+ * [Hello World](hello_world) Animación básica de un 2DSprite con GDScript 
 
- * Ejercicio [GDScript-basico](gdscript-basico) para comprender sintaxis del lenguaje GDScript con operaciones sencillas
+ * Ejercicio [GDScript-basico](gdscript-basico) para comprender sintaxis del lenguaje GDScript con operaciones sencillas (2026)
+
+ * [Hello Girl](hello_girl) Ampliación del ejemplo [Hello World](hello_world) para añadir un nuevo personaje: una niña con corazón latiendo (2026)
   
  * [Bansky](bansky) Pasar de una escena a otra con botones
 
