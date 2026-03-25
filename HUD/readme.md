@@ -30,23 +30,18 @@ Se abre cierra con teclado:
 * Barra de espacio : abrir /cerrar
 
 
-## Aplicación de un Theme 
+## Aplicación de un Theme (creación) 
 
 
+Vamos a crear un theme (.tres) con los siguientes elementos: 
 
-Se asigna un theme (tres) con: 
+- Buscar fonts personalizada  disponible de https://www.dafont.com/es/
 
-- fonts personalizada  disponible de https://www.dafont.com/es/
+  Font elegida: CARTOON SHOUT   https://www.dafont.com/es/bd-cartoon-shout.font
 
-  CARTOON SHOUT
-
-  https://www.dafont.com/es/bd-cartoon-shout.font
-
-- GUI theme BubbleButtons: https://www.gameart2d.com/free-bubble-game-button-pack.html
+- GUI theme prediseñado (free GUI spritesheet)- BubbleButtons: https://www.gameart2d.com/free-bubble-game-button-pack.html
 
 - Fondo: undertale map https://www.deviantart.com/thetrueryan/art/No-AU-Undertale-styled-Temple-Map-863543431
-
-
 
 
 
