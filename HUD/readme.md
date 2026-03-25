@@ -3,6 +3,21 @@
 
 Código en [hud_panel.zip](hud_panel.zip)
 
+En este ejemplo, vamos a crear un diseño de UI creando un estilo propio (que se llama **Theme**) y que se pueda organizar y manejar  como un **panel independiente** del juego 2D. 
+
+Con este ejercicio comprenderemos: 
+
+* cómo crear paneles de UI
+* cómo crear y aplicar un Theme al diseño 
+
+Revisar: 
+* [¿Qué es un Theme?](https://github.com/mgea/godot/wiki/Tema)
+* [¿Qué es un Panel?](https://github.com/mgea/godot/wiki/Panel) 
+
+
+
+## Creación del Panel 
+
 Creación de un panel de IU para juego https://es.wikipedia.org/wiki/HUD_(videojuegos)
 
 Es la información que se muestra en juego durante la partida 
@@ -13,6 +28,11 @@ Puede estar siempre visible o alternar visibilidad (aparecer/ocultar)
 Se abre cierra con teclado:
 
 * Barra de espacio : abrir /cerrar
+
+
+## Aplicación de un Theme 
+
+
 
 Se asigna un theme (tres) con: 
 
