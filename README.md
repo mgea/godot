@@ -113,7 +113,7 @@ Conceptos:
    * Botones y sus estados
    * Estilos (Themes) 
 
-* [GUI-MoveSprite-Inputs](GUI-MoveSpriteInput) - Mover objeto básico por teclado / ratón
+* [GUI-MoveSprite-Inputs](GUI-MoveSprite-Inputs) - Mover objeto básico por teclado / ratón
   * Mover objeto  
   * MOver objeto con cámara subjetiva  
 
