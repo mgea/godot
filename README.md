@@ -18,7 +18,7 @@ Contenidos:
 La creación de contenido multimedia con ordenador ha ido evolucionando a lo largo del tiempo. [Timeline](https://mgea.github.io/PeriodismoMultimedia/content/resources/timeline.html)
 
 - Adobe/Macromedia [Flash](https://www.hackaboss.com/blog/tecnologia-adobe-flash)  fue la gran apuesta multimedia en internet en los años 90, pero su tecnología se quedó obsoleta con las mejoras de HTML5 y sus problemas de seguridad hacia 2010. [Historia](https://www.youtube.com/watch?v=aaOihL8mvDM)
- 
+
      <a href="https://www.youtube.com/watch?v=aaOihL8mvDM"> <img src="https://i.ytimg.com/vi/aaOihL8mvDM/hq720.jpg" height="150">  </a> 
 
 
@@ -30,7 +30,7 @@ La creación de contenido multimedia con ordenador ha ido evolucionando a lo lar
     - Wickeditor - https://www.wickeditor.com/
 - **Game engine**:
   Los motores de videojuegos es una estupenda alternativa para la creación multimedia, ya qe son capaces de manejar escenas con multiples medios de manera muy eficiente, y resuelve de forma 
-adecuada animaciones (cinemática), los player (movimiento de personajes), colisiones, manipulación (drag & drop), dinámica y control de física etc. Entre las distintas plataformas existentes, godot es una muy buena opción para la creación multimedia por:
+  adecuada animaciones (cinemática), los player (movimiento de personajes), colisiones, manipulación (drag & drop), dinámica y control de física etc. Entre las distintas plataformas existentes, godot es una muy buena opción para la creación multimedia por:
   * fácil instalación (un solo fichero que se descarga y funciona sin mayores problemas de instalación)
   * open source & free, desarrollado por una comunidad en constante evolución
   * lenguaje de scrip gdscript sencillo (basado en python) 
@@ -69,10 +69,10 @@ La mayoría de los ejercicios está publicados para jugar online en **cuenta de 
  * Ejercicio [GDScript-basico](gdscript-basico) para comprender sintaxis del lenguaje GDScript con operaciones sencillas (2026)
 
  * [Hello Girl](hello_girl) Ampliación del ejemplo [Hello World](hello_world) para añadir un nuevo personaje: una niña con corazón latiendo (2026)
-  
+
  * [Bansky](bansky) Pasar de una escena a otra con botones
 
- 
+
 <br>
 <br>
 
@@ -189,6 +189,7 @@ Quizz (tablero de preguntas)  y juego de colisionar para activar preguntas.
 * [Quizz](quizz)
 * demo en Itch.io -> https://cmiugr.itch.io/quizz
   
+
 <br>
 Drag & Drop: arrastrar y soltar con varias alternativas. 
 
@@ -258,7 +259,6 @@ Publicación en itch.io
 Facultad de Bellas Artes, Universidad de Granada 
 
 CCBYNCSA M. Gea 
-
 
 
 
