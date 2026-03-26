@@ -113,12 +113,12 @@ Conceptos:
    * Botones y sus estados
    * Estilos (Themes) 
 
-* [MoveSprite-Inputs](MoveSpriteInput) - Mover objeto básico por teclado / ratón
+* [GUI-MoveSprite-Inputs](GUI-MoveSpriteInput) - Mover objeto básico por teclado / ratón
   * Mover objeto  
   * MOver objeto con cámara subjetiva  
 
 
-* [HUD](HUD) - Crear un Head-Up Display (IU del juego que se muestra/oculta)  
+* [GUI-HUD](GUI-HUD) - Crear un Head-Up Display (IU del juego que se muestra/oculta)  
   * Combinamos todo lo anterior con un juego de movimiento con Panel de control de UI
   * Paneles de UI (CanvasLayer), se muestran encima como capas y se pueden mostrar/ocultar con . 
 
