@@ -6,13 +6,13 @@ Mover objeto básico por teclado / ratón
 
 Revisar qué son y cómo funciona los [Inputs](https://github.com/mgea/godot/wiki/Inputs)
 
-![MoverSprite](moverSprite1.png)
+![MoverSprite](moverSprite01.png)
 
 
 
 Finalmente le añadiremos un objeto ``Camera2D`` para que se mueva con el personaje 
 
-![MoverSprite](moverSprite2.png)
+![MoverSprite](moverSprite02.png)
 
 <br>
 
