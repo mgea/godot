@@ -11,6 +11,8 @@ Revisar qué son y cómo funciona los [Inputs](https://github.com/mgea/godot/wik
 
 NOTA: EL script se ha puesto en el Nodo raiz. Para modificar propiedades de los "nodos hijos" tenemos que usar un mecanimo para referirnos al nodo hijo correspondiente. Ene este caso, sería usando el símbolo ``$`` con el nombre del nodo: para mover a la derecha el ``Sprite2D`` sería con: ``$Character.position.x = $Character.position.x +1`` 
 
+> Revisar https://github.com/mgea/godot/wiki/Arbol-de-nodos
+
 
 
 Finalmente le añadiremos un objeto ``Camera2D`` para que se mueva con el personaje 
