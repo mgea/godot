@@ -101,14 +101,26 @@ Conceptos:
 Conceptos:
 
 * Diseñar y personalizar el IU
-* 
+  * Nodos de tipo Control: Botón, Label, Panel...
+  * Estilos: Themes    
+* Interacción: eventos/señales y dispositivos (mapa de Inputs)
+  
 
 
 ### Ejemplos GUI y HUD 
 
-* [GUI](GUI) - Controles y look&feel
+* [GUI](GUI) - Controles del IU donde vemos:
+   * Botones y sus estados
+   * Estilos (Themes) 
 
-* [HUD](HUD) - Paneles de control con elementos del UI (CanvasLayer), se muestran encima como capas y se pueden mostrar/ocultar. 
+* [MoveSprite-Inputs](MoveSpriteInput) - Mover objeto básico por teclado / ratón
+  * Mover objeto  
+  * MOver objeto con cámara subjetiva  
+
+
+* [HUD](HUD) - Crear un Head-Up Display (IU del juego que se muestra/oculta)  
+  * Combinamos todo lo anterior con un juego de movimiento con Panel de control de UI
+  * Paneles de UI (CanvasLayer), se muestran encima como capas y se pueden mostrar/ocultar con . 
 
 <br>
 <br>
