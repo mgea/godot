@@ -1,4 +1,4 @@
-#  HUD (Head Up Display) Panel 
+#  GUI-HUD (Head Up Display) Panel 
 
 
 Código en [hud_panel.zip](hud_panel.zip)
