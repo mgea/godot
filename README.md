@@ -124,32 +124,38 @@ Conceptos:
 <br>
 <br>
 
-## Sesión 4 Multimedia avanzada con Godot: audio & character animation 
 
-Uso de audio y canales:
+
+
+## Sesión 4 Multimedia avanzada con Godot: audio, Video & galería de imágenes
+
+#### Uso de audio y canales:
 
 * [Jukebox](jukebox)
 
-Animación con sprite (usando botones, no movimiento con teclas)
+
+#### Gestión de Video 
 
 
-* [Sprite2Dbasic](animatedSprite_basic)
 
-<br>
-<br>
-
-
-## Sesión 5. Incrustación de videos y creación de galería de imágenes en Godot 
+#### Galería de imágenes y video (usando listas)  
 
 En esta parte nos vamos a centrar en cómo manejar stream de video y cómo crear una galería sencilla de imágenes. 
 
 * [Galería](gallery) - Incluye manejo de video, listas y galería de imágenes.
 
 
+
+
 <br>
 <br>
 
-## Sesión 6: Sprites en Godot:  mover personje 2D (inputs y colisiones) 
+
+## Sesión 5. Animación de Character2D y colisiones 
+
+Animación con sprite (usando botones, no movimiento con teclas)
+
+* [Sprite2Dbasic](animatedSprite_basic)
 
 En esta parte nos vamos a centrar en cómo manejar personajes (y colisiones)
 
@@ -163,7 +169,7 @@ En esta parte nos vamos a centrar en cómo manejar personajes (y colisiones)
 <br>
 
 
-## Sesión 7: Sistema de Diálogos (plugin dialogic)
+## Sesión 6: Sistema de Diálogos (plugin dialogic)
 
 En esta semana nos hemos dedicado a configurar el plugin de Sistema de Dialogo Dialogic y vér como usar para crear narrativas de personajes y cómo activar con colisiones. 
 
@@ -172,7 +178,7 @@ En esta semana nos hemos dedicado a configurar el plugin de Sistema de Dialogo D
 <br>
 <br>
 
-## Sesión 8: Exportar  
+## Sesión 7: Exportar  
 
 Cómo exportar: 
 
@@ -182,7 +188,7 @@ Cómo exportar:
 <br>
 
 
-## Sesión 9: Juegos  
+## Sesión 8: Juegos  
 
 Quizz (tablero de preguntas)  y juego de colisionar para activar preguntas.
 * [Quizz](quizz)
@@ -214,7 +220,7 @@ Crear numeros aleatorios
 
 
 
-## Sesión 10: Almacenar y recuperar datos en fichero JSON 
+## Sesión 9: Almacenar y recuperar datos en fichero JSON 
 
 Cargar datos en ficheros JSON
 * [load_json](fileIO)
@@ -222,7 +228,7 @@ Cargar datos en ficheros JSON
 <br>
 <br>
 
-## Sesión 11 Juegos II: Timer para recoger objetos con temporizador  
+## Sesión 10 Juegos II: Timer para recoger objetos con temporizador  
 
 
 <br>
@@ -230,7 +236,7 @@ Cargar datos en ficheros JSON
 <br>
 
 
-## Sesión 12: Publicar en Internet 
+## Sesión 11: Publicar en Internet 
 
 Publicación en itch.io
 * [Itch.io](itchio)
