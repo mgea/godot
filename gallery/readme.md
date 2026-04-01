@@ -1,36 +1,6 @@
 
 # Ejemplo de Galería de imágenes y vídeos
 
-Ayuda video: https://github.com/mgea/godot/wiki/Video 
-
-
-## VIDEOS
-
-
-
-
-Uso de la clase **VideoStreamPlayer** 
-
-https://docs.godotengine.org/es/4.x/classes/class_videostreamplayer.html#class-videostreamplayer
-
-* Deben ser en formato OGV (ver https://docs.godotengine.org/es/4.x/tutorials/animation/playing_videos.html)
-
-* Se pueden convertir con ffmpeg
-
-ejemplo: ffmpeg -i input.mp4 -q:v 6 -q:a 6 output.ogv
-
-
-#### Cargar un vídeo dinámicamente 
-
-```
-$videostreamplayer.set_stream(load("res://video/video1.ogv"))
-$videostreamplayer.play()
-```
-
-
-<br>
-<br>
-
 
 
 ## GALERIA IMAGENES 
