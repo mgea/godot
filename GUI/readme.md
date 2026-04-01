@@ -1,5 +1,5 @@
 ## GUI CMI 
-Ejemplo: [[GUI26.zip]]
+Ejemplo: [GUI26.zip](GUI26.zip)
 
 Diseño del UI: 
 
