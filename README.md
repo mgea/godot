@@ -115,8 +115,7 @@ Conceptos:
 
 * [GUI-MoveSprite-Inputs](GUI-MoveSprite-Inputs) - Mover objeto básico por teclado / ratón
   * Mover objeto  
-  * MOver objeto con cámara subjetiva  
-
+  * Mover objeto con cámara subjetiva  
 
 * [GUI-HUD](GUI-HUD) - Crear un Head-Up Display (IU del juego que se muestra/oculta)  
   * Combinamos todo lo anterior con un juego de movimiento con Panel de control de UI
