@@ -133,6 +133,11 @@ Conceptos:
 
 * [Jukebox](jukebox)
 
+<br>
+Sonido de fondo global (que se mantiene entre escenas) 
+
+* [sonido global](sonido)
+
 
 #### Gestión de Video 
 
@@ -200,10 +205,6 @@ Drag & Drop: arrastrar y soltar con varias alternativas.
 
 * [Drag&Drop](drag_and_drop)
 
-<br>
-Sonido de fondo global (que se mantiene entre escenas) 
-
-* [sonido global](sonido)
 
 <br>
 
