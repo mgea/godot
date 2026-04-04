@@ -18,7 +18,7 @@ Si tenemos un nodo sprite2D llamado ``img``, se podría añadir dinámicamente u
   $img.texture = image
 ```
 
-Eso funciona para cambiar la imagen de un nodo Sprite2D. Si queremos ir cambiando la imagen de ese nodo (como si fuese una galería de imágenes) entre un conjunto de imágenes, deberemos usar una **lista**. La listas es un tipo de variable que almacena un conjunto de datos ordenados, y podemos acceder a cada uno de ellos por su posición (más info en wiki: https://github.com/mgea/godot/wiki/Listas)
+Eso funciona para cambiar la imagen de un nodo Sprite2D. Si queremos ir cambiando la imagen de ese nodo (como si fuese una galería de imágenes) entre un conjunto de imágenes, deberemos usar una **listas**. Las listas (o arrays) es un tipo de variable que almacena un conjunto de datos ordenados, y podemos acceder a cada uno de ellos por su posición (más info en wiki: https://github.com/mgea/godot/wiki/Listas)
 
 > ¿Qué es un array? (video): [Godot Land arrays/listas](https://www.youtube.com/watch?v=hs7yGZ1PdHY&list=PLgI0I_tQQ38LFw7SZX2U3S-eKT-FrC1-Y&index=12)
 
