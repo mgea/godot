@@ -127,9 +127,17 @@ Conceptos:
 
 
 
-## Sesión 4 Multimedia avanzada con Godot: audio, Video & galería de imágenes
+## Sesión 4 Multimedia avanzada con Godot: Galería de imágenes, Audio & Video
 
-#### Uso de audio y canales:
+
+#### 4.1 Galería de imágenes y video (usando listas)  
+
+En esta parte nos vamos a centrar en cómo manejar **listas de elementos** (imágenes/videos) para mostrar como una una galería multimedia. 
+
+* [Galería](gallery) - Incluye manejo de video, listas y galería de imágenes.
+
+
+#### 4.2 Uso de audio y canales:
 
 * [Jukebox](jukebox)
 
@@ -139,15 +147,9 @@ Sonido de fondo global (que se mantiene entre escenas)
 * [sonido global](sonido)
 
 
-#### Gestión de Video 
+#### 4.3 Gestión de Video 
 
 
-
-#### Galería de imágenes y video (usando listas)  
-
-En esta parte nos vamos a centrar en cómo manejar stream de video y cómo crear una galería sencilla de imágenes. 
-
-* [Galería](gallery) - Incluye manejo de video, listas y galería de imágenes.
 
 
 
