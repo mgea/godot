@@ -84,6 +84,25 @@ func _on_prev_pressed() -> void:
 <br>
 
 
+#### Galería de Videos 
+
+Información de videos: https://github.com/mgea/godot/wiki/Video
+
+Usado en Galería 
+
+Creamos un nodo2D de VideoStreamPlayer 
+
+Podemos asignarle un stream: 
+
+```
+$video.set_stream(load(videolist[indice]))
+```
+
+Reproducir 
+
+```
+$video.play()
+```
 
 
 
