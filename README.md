@@ -139,10 +139,14 @@ En esta parte nos vamos a centrar en cómo manejar **listas de elementos** (imá
 
 #### 4.2 Uso de audio y canales:
 
+Vamos a añadir sonido asociado a una escena/acción, sonido de fondo (entre escenas) o bien para efectos especiales.
+
+Funcionamiento de buses de audios separados: 
 * [Jukebox](jukebox)
 
 <br>
-Sonido de fondo global (que se mantiene entre escenas) 
+
+Sonido como fondo global (que se mantiene entre escenas) 
 
 * [sonido global](sonido)
 
