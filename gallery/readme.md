@@ -5,8 +5,7 @@
 
 ## GALERIA IMAGENES 
 
-(actualizado 7 Mayo 2025)
-
+![](gallery_scn.png)
 
 #### Cargar una imagen dinámicamente  (alternativa 1: mejor para exportación)
 
@@ -21,7 +20,11 @@ Si tenemos un nodo sprite2D llamado ``img``, se podría añadir dinámicamente u
 
 Eso funciona para cambiar la imagen de un nodo Sprite2D. Si queremos ir cambiando la imagen de ese nodo (como si fuese una galería de imágenes) entre un conjunto de imágenes, deberemos usar una **lista**. La listas es un tipo de variable que almacena un conjunto de datos ordenados, y podemos acceder a cada uno de ellos por su posición (más info en wiki: https://github.com/mgea/godot/wiki/Listas)
 
-> ¿Qué es un array? (video): https://godot.land/godot-gdscript-arrays/
+> ¿Qué es un array? (video): [Godot Land arrays/listas](https://www.youtube.com/watch?v=hs7yGZ1PdHY&list=PLgI0I_tQQ38LFw7SZX2U3S-eKT-FrC1-Y&index=12)
+
+
+
+
 
 El script que hay que introducir en la escena de la Galería deberia tener:
 
@@ -35,17 +38,18 @@ extends Node2D
 
 var image
 
-var indice = 0    # el indice almacena el lugar actual (imagen) de la lista 
-var total = 3
+var indice = 0   # el indice almacena el lugar actual (imagen) de la lista 
+var total = 3    # total de elementos en el array
 
 var imglist = [
         preload("img/banksy-84.png"),
 	preload("img/Banksy-Bethlehem-22.jpg"),
 	preload("img/Banskiy-nina-cacheando.jpg")
         ]	
- 
 
 ```
+Si usamos la palabra reservada **``@export``** con las variables, las podemos VER/MODIFICAR en el inspector del elementos del objeto. 
+
 
 
 Cada vez que se pulse un botón (adelante) se debería actualizar la siguiente imagen en el objeto Sprite2D
@@ -59,15 +63,20 @@ func _on_next_pressed() -> void:
 ```
 
 
+
+![](gallery_gd.png)
+
+
+
 Del mismo modo, se haría con el botón hacia atrás. Se recorre en modo inverso las imágenes. 
 
 
 ```python
-func _on_next_pressed() -> void:
+func _on_prev_pressed() -> void:
 	indice = indice -1 
 	if (indice<0):
-		indice=total-1             # para que sea cíclico, vuelve a última imagen
-	$foto.texture = imglist[indice]    # asigna como textura la imagen precargada en lista
+		indice=total-1                # para que sea cíclico, vuelve a última imagen
+	$foto.texture = imglist[indice]   # asigna como textura la imagen precargada en lista
 ```
 
 
