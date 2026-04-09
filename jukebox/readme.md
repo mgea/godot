@@ -12,13 +12,20 @@ https://docs.godotengine.org/es/4.x/tutorials/audio/audio_buses.html
 
 * Crear canales donde dirigir el audio e incorporar efectos 
 * Conectar señales de reproducción de audio
-  
+
+
+* **Conocer AUDIO en godot** https://github.com/mgea/godot/wiki/Audio 
 
 ### AudioStreamPlayer
 
 * Utilizar herramientas como photoshop para segmentar imagen en capas para componer en Godot
 * Aplicar movimiento a los nodos
 * Para establecer propiedades de otros nodos: se debe usar **get_node()** https://kidscancode.org/godot_recipes/3.x/basics/getting_nodes/
+
+
+
+
+
 
 
 
