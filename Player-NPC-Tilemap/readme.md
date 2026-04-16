@@ -37,15 +37,18 @@ Una vez creado, nos **aparece en la ventana inferior dos nuevos paneles**:
 * ``TileSet`` para "dibujar" el contenido de los bloques en tu escena final (como si fuese un pincel)
 
 
-### Panle TileSet
+### Panel TileSet
 
 En el panel **TileSet** se hace la configuración de las piezas antes de pintar. Los pasos por orden son: 
 
-1. **Configuración de Textura (Setup)** Al importar la imagen se define cómo se divide para crear el _Atlas_: Seleccionas la imagen y Godot identifica los cuadros automáticamente. Se puede elegir qué partes de la imagen son tiles usables y cuáles ignorar (como espacios vacíos).
+* **Configuración de Textura (Setup)** Al importar la imagen se define cómo se divide para crear el _Atlas_: Seleccionas la imagen y Godot identifica los cuadros automáticamente. Se puede elegir qué partes de la imagen son tiles usables y cuáles ignorar (como espacios vacíos).
+
+![TilesetPanel](Tileset_panel.png)
 
 
+* **Capas de Física** (Physics Layers)
+
+Se pueden añadir capas que definan elementos de cuadros como elementos de colisión (pintando en esa capa). También se pueden asignar máscaras para que ciertos ciertos tiles bloqueen al un personaje (jugador) pero dejen pasar otros, usando las Collision Layers.
 
 
-
-
-
+* Otros: como Datos Personalizados (Custom Data Layers), Animaciones de Tiles, etc. 
