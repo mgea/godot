@@ -64,13 +64,14 @@ La mayoría de los ejercicios está publicados para jugar online en **cuenta de 
 ### Ejemplos
 
 
- * [Hello World](hello_world) Animación básica de un 2DSprite con GDScript 
 
- * Ejercicio [GDScript-basico](gdscript-basico) para comprender sintaxis del lenguaje GDScript con operaciones sencillas (2026)
+ * (Dia 1) Animación de un ``Sprite2D`` por código [Hello World](hello_world) Animación básica de un 2DSprite con GDScript por Consola
 
- * [Hello Girl](hello_girl) Ampliación del ejemplo [Hello World](hello_world) para añadir un nuevo personaje: una niña con corazón latiendo (2026)
+ * Ejercicios [GDScript-basico](gdscript-basico) para comprender sintaxis del lenguaje GDScript con operaciones sencillas (2026)
 
- * [Bansky](bansky) Pasar de una escena a otra con botones
+ * Ejercicio Jerarquía de nodos: [Hello Girl](hello_girl) Ampliación del ejemplo [Hello World](hello_world) para añadir un nuevo personaje: una niña con corazón latiendo (2026)
+
+ * (Día 2) [Bansky](bansky) Pasar de una escena a otra con botone (Nodo: ``Control>Button``)
 
 
 <br>
@@ -82,14 +83,14 @@ Conceptos:
 
 * 4 Imágenes y propiedades: ajustes, transparencias, modelo de color
 * 5 Texto y sus propiedades
-* 6 Animación 2D con AnimationPlayer
+* 6 Animación 2D con ``AnimationPlayer``
 
 
 
 ### Ejemplos
 
-* [Atenas](atenas) - composición imágenes por capas
-* [BBAAteaser](bbaateaser) - animacion por linea de tiempo con jerarquías animadas y reutilización de escenas
+* Caso 1 [Atenas](atenas) - composición imágenes por capas, texto fancy, pasar de escena tras X segundos y efecto Parallax
+* Caso 2 [BBAAteaser](bbaateaser) - animacion por linea de tiempo con jerarquías animadas y reutilización de escenas
 
 
 <br>
@@ -108,6 +109,12 @@ Conceptos:
 
 
 ### Ejemplos GUI y HUD 
+
+Conceptos:
+
+* Diseñar y personalizar el IU (Nodos: Button, Texture Button, Canvas)
+* Usar ``Themes`` (Override)
+* Crear Temas (Themes)
 
 * [GUI](GUI) - Controles del IU donde vemos:
    * Botones y sus estados
@@ -175,16 +182,10 @@ En esta parte nos vamos a centrar en cómo manejar personajes (y colisiones)
 * [Mover animatedSprite2D](moveanimatedSprite) - Movimiento de un player con animación propia (**AnimatedSprite2D**) 
 
 
-Personajes no jugables (NPC) 
+Personajes no jugables (NPC) Mundos con Niveles (plataformas) usando [TileMap](https://github.com/mgea/godot/wiki/Tilemap) 
 
-* 
-
-
-Crear Mundos y Niveles (plataformas) usando [TileMap](https://github.com/mgea/godot/wiki/Tilemap) 
-
-* Ejercicio.....
-
-
+* Ejercicio con Player (``RigidBody>CharacterBody2D``), NPC (``StaticBody2D``) y Mundos hechos con SpriteSheet (``TileMapLayer``) -> [[Player-NPC-Tilemap]]
+  
 
 
 <br>
