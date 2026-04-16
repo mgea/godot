@@ -1,6 +1,6 @@
 Creación de un Mundo con sprites
 
-
+![game](game_player_npc_tilemap.png)
 - Creación del Player
 
 - creación de Nodos NPC (Non-playable character)
