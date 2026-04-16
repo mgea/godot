@@ -175,6 +175,17 @@ En esta parte nos vamos a centrar en cómo manejar personajes (y colisiones)
 * [Mover animatedSprite2D](moveanimatedSprite) - Movimiento de un player con animación propia (**AnimatedSprite2D**) 
 
 
+Personajes no jugables (NPC) 
+
+* 
+
+
+Crear Mundos y Niveles (plataformas) usando [TileMap](https://github.com/mgea/godot/wiki/Tilemap) 
+
+* Ejercicio.....
+
+
+
 
 <br>
 <br>
