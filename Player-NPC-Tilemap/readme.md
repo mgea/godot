@@ -9,7 +9,7 @@ Creación de un Mundo con
 
 ![game](game_player_npc_tilemap.png)
 
-* DEscargar EJEMPLO: [Player-NPC-Tilemap](player-npc-tilemap.zp)
+* Descargar EJEMPLO: [Player-NPC-Tilemap](player-npc-tilemap.zip)
 
 
 ## Creación del mundo con TilemapLayer
