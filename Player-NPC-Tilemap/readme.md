@@ -1,12 +1,15 @@
-Creación de un Mundo con sprites
+Creación de un Mundo con 
+
+- Player (``CharacterBody2D``)que no tiene gravedad.
+
+- NPC (Non-playable character con ``StaticBody2D``)
+
+- Creación del Mundo (Niveles) con ``TilemapLayer`` 
+
 
 ![game](game_player_npc_tilemap.png)
-- Creación del Player
 
-- creación de Nodos NPC (Non-playable character)
-
-- Creación del Mundo (Niveles) con Tilemap
-
+* DEscargar EJEMPLO: [Player-NPC-Tilemap](player-npc-tilemap.zp)
 
 
 ## Creación del mundo con TilemapLayer
