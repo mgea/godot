@@ -38,6 +38,7 @@ EN este panel definimos los grupos (atlas) de bloques y sus propiedades. Pasos:
 
 * **Capas de Física** (Physics Layers). Se añade información de los bloques que responden a una colisión y se almacena en una capa (layer)
 
+![capa fisica](tileset_physicLayer.png)
 
 
 ### Panel TileMap
