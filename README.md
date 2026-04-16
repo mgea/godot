@@ -184,7 +184,7 @@ En esta parte nos vamos a centrar en cómo manejar personajes (y colisiones)
 
 Personajes no jugables (NPC) Mundos con Niveles (plataformas) usando [TileMap](https://github.com/mgea/godot/wiki/Tilemap) 
 
-* Ejercicio con Player (``RigidBody>CharacterBody2D``), NPC (``StaticBody2D``) y Mundos hechos con SpriteSheet (``TileMapLayer``) -> [[Player-NPC-Tilemap]]
+* Ejercicio con Player (``RigidBody>CharacterBody2D``), NPC (``StaticBody2D``) y Mundos hechos con SpriteSheet (``TileMapLayer``) -> [Player-NPC-Tilemap](Player-NPC-Tilemap) 
   
 
 
