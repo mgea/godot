@@ -1,4 +1,4 @@
-## Mover Sprite 2D (y colisiones) 
+## Player - Mover Sprite 2D (y colisiones) 
 
 info: https://docs.godotengine.org/es/4.x/tutorials/2d/2d_movement.html
 resumen de nodos necesarios: 
@@ -35,7 +35,7 @@ Se deben **activar** las siguientes combinaciones de teclado para mover sprite, 
 
 Esas acciones por defecto permiten controlar personajes mediante la función **Input**, por ejemplo:
 
-```
+```gdscript
 if Input.is_action_just_pressed("ui_right"):
 	print("ir a la derecha")
 ```
@@ -49,7 +49,7 @@ El personaje que vamos a mover (player) es de tipo especial: **CharacterBody2D**
 
 Contiene una apariencia (Sprite2D) y un área de colisión (CollisionShape2D) 
 
-![CB2D](https://docs.godot.community/_images/kbscene.webp) 
+![CB2D](https://docs.godotengine.org/en/latest/_images/kbscene.webp) 
 
 
 Comienza con un CharacterBody2D con dos hijos: Sprite2D y CollisionShape2D.
@@ -63,7 +63,12 @@ info: https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html
 
 Hay que crear las siguiente funciones porque se debe usar la función **_physics_process** para que tenga en cuenta propiedades físicas.
 
-```
+Para el movimiento debemos hacer: 
+a) conocer la velocidad y dirección (mediante un vector) 
+b) mover con la función ``move_and_slide``  en la función ``_physics_process``
+
+
+```gdscript
 extends CharacterBody2D
 
 @export var speed = 400
