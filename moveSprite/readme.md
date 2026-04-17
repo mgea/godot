@@ -6,6 +6,7 @@ resumen de nodos necesarios:
 Un Sprite que podemos mover con el teclado/ratón normalmente es un **player** qye se diferencia de los **NPC** ("Non-Player Character" o "Personaje No Jugable") que son los personajes de un videojuego que no son controlados por el jugador. 
 
 
+
 ### Player:
 ```
 * CharacterBody2D
