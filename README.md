@@ -81,9 +81,9 @@ La mayoría de los ejercicios está publicados para jugar online en **cuenta de 
 
 Conceptos: 
 
-* 4 Imágenes y propiedades: ajustes, transparencias, modelo de color
-* 5 Texto y sus propiedades
-* 6 Animación 2D con ``AnimationPlayer``
+* Imágenes y propiedades: ajustes, transparencias, modelo de color
+* Texto y sus propiedades
+* Animación 2D con ``AnimationPlayer``
 
 
 
@@ -179,13 +179,12 @@ En esta parte nos vamos a centrar en cómo manejar personajes (y colisiones)
 
 * [Mover sprite2D](moveSprite) - Incluye gestión de inputs (teclado) y movimiento pesonaje 2D (X.Y) con colisiones (personaje sin animación propia: es un Sprite2D)
 
-* [Mover animatedSprite2D](moveanimatedSprite) - Movimiento de un player con animación propia (**AnimatedSprite2D**) 
+* [Crear Player con animación](moveanimatedSprite) - Movimiento de un player con animación propia (**AnimatedSprite2D**) 
 
 
-Personajes no jugables (NPC) Mundos con Niveles (plataformas) usando [TileMap](https://github.com/mgea/godot/wiki/Tilemap) 
+* [MundoRPGbasico](RPGbasico) Creación de un Mundo RPG (con Niveles tipo plataformas) usando [TileMap](https://github.com/mgea/godot/wiki/Tilemap), player y objetos 
 
-* Ejercicio con Player (``RigidBody>CharacterBody2D``), NPC (``StaticBody2D``) y Mundos hechos con SpriteSheet (``TileMapLayer``) -> [Player-NPC-Tilemap](Player-NPC-Tilemap) 
-  
+ 
 
 
 <br>
