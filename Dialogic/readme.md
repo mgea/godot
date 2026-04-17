@@ -7,4 +7,4 @@ Proyecto **godot con dialogic**
 
 * ¿Qué es un Dialog System? -> https://github.com/mgea/godot/wiki/Dialogic-(Dialog-System)
 
-* Decargas [godot-con-dialogic](godot-con-dialogic.zip)
+* Decargar [godot-con-dialogic.zip](godot-con-dialogic.zip)
