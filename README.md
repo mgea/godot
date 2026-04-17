@@ -71,7 +71,7 @@ La mayoría de los ejercicios está publicados para jugar online en **cuenta de 
 
  * Ejercicio Jerarquía de nodos: [Hello Girl](hello_girl) Ampliación del ejemplo [Hello World](hello_world) para añadir un nuevo personaje: una niña con corazón latiendo (2026)
 
- * (Día 2) [Bansky](bansky) Pasar de una escena a otra con botone (Nodo: ``Control>Button``)
+ * (Día 2) [Bansky](bansky) Pasar de una escena a otra con botones (Nodo: ``Control>Button``)
 
 
 <br>
