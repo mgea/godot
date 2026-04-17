@@ -161,10 +161,6 @@ Sonido como fondo global (que se mantiene entre escenas)
 #### 4.3 Gestión de Video 
 
 
-
-
-
-
 <br>
 <br>
 
@@ -193,9 +189,13 @@ En esta parte nos vamos a centrar en cómo manejar personajes (y colisiones)
 
 ## Sesión 6: Sistema de Diálogos (plugin dialogic)
 
-En esta semana nos hemos dedicado a configurar el plugin de Sistema de Dialogo Dialogic y vér como usar para crear narrativas de personajes y cómo activar con colisiones. 
+Creación de un plugin para Sistema de Dialogo **Dialogic**. Usar para crear narrativas de personajes y cómo activar con colisiones. 
 
+* [Godot+Dialogic](Dialogic) Versión de un proyecto "limpio" de Godot 4 con plugin activado de Dialogic. Listo para usar
+   
 * [Ejemplo de Dialogic](https://github.com/mgea/godot/tree/main/Dialogic_example)
+
+* [Estilos en Dialogic](Dialogic_style)
 
 <br>
 <br>
