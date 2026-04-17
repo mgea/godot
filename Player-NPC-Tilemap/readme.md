@@ -56,15 +56,40 @@ Estos NPC son objetos rígidos con los que puede colisionar el player. Cuando co
 
 
 ```gdscript
-# dentro de script de player.gd
+#player
+extends CharacterBody2D
+
+
+const speed = 500.0
+
+# función para saber dirección del player y mostrar animación 
+func get_input():
+	var input_direction = Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
+	velocity = input_direction*speed
+
+	# reproducir animación
+	$AnimatedSprite2D.play("default") 
+	if Input.is_action_pressed("ui_right"):
+		$AnimatedSprite2D.play("move_dcha")
+	if Input.is_action_pressed("ui_left"):
+		$AnimatedSprite2D.play("move_izda")
+	if Input.is_action_pressed("ui_up"):
+		$AnimatedSprite2D.play("move_up")
+	if Input.is_action_pressed("ui_down"):
+		$AnimatedSprite2D.play("move_down")
+	
+
+# dentro de script de player.gd, control de movimiento y colisiones 
 func _physics_process(delta: float) -> void:
-	# Add the gravity.
-	get_input()
+	get_input()   # dirección
+
+	# función de mover
 	var colision = move_and_collide(velocity * delta)
+
 	# variable colision==true ha colisionado
 	if colision:
 		print("he chocado con ", colision.get_collider().name)
-    # añadir acción... 
+    	# añadir acción... 
 
 ```
 
