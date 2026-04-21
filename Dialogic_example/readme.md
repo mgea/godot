@@ -1,6 +1,7 @@
 ## Dialogic 2 example 
 
-Ejercicio: [Dialogic_walking_player.zip](walking_player_Dialogic.zip)
+* Ejercicio sin dialogos: [Dialogic_walking_player.zip](walking_player_Dialogic.zip)
+* Ejercicio con diálogo conectado a colision: [Dialogic_walkingPlayer_Jon.zip]([Dialogic_walkingPlayer_Jon.zip])
 
 Ejemplo de sistema de diálogo en Godot con plugin Dialogic 2 https://github.com/dialogic-godot/dialogic
 
