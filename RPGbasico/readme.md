@@ -13,6 +13,9 @@ Creación de un Mundo con
 
 * Descargar EJEMPLO: [RPGbasico.zip](RPGbasico.zip)
 
+* Ver en Ith.io -> https://cmiugr.itch.io/rpg-basico
+
+
 
 ## Creación del mundo con TilemapLayer
 
