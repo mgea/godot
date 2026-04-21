@@ -2,7 +2,9 @@
 
 Ejemplo de sistema de diálogo en Godot con plugin Dialogic 2 https://github.com/dialogic-godot/dialogic
 
-Documentación en: https://docs.dialogic.pro/introduction.html
+  * Documentación en: https://docs.dialogic.pro/introduction.html
+
+[¿Qué es Dialogic?](https://github.com/mgea/godot/wiki/Dialogic-%28Dialog-System%29) 
 
 Ejemplo base para diseñar diálogos: [walking_player_con_dialogic.zip](walking_player_Dialogic.zip)
 
