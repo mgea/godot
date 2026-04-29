@@ -1,8 +1,11 @@
 # Point & Click
 
 
-Ejemplo en itch.io -> https://cmiugr.itch.io/point-and-click
+* Ejemplo en itch.io -> https://cmiugr.itch.io/point-and-click
 
+* Descargar ejemplo -> [point_click.zip](point_click.zip) 
+
+![](portada.png)
 
 ## Creamos un objeto coleccionable 
 
@@ -84,6 +87,10 @@ func _on_area_2d_mouse_exited() -> void:
 * El inventario es un panel que se puede abrir / cerrar con la barra de espacio 
 * Cada vez que se coge un objeto, se añade a la lista
 * Se añade el nombre del objeto y se visualiza la imagen (que tiene el mismo nombre)
+* Se crea como variable global
+
+![](Inventario.png)
+
 
 por ejemplo: se almacena "burguer" y se coloca en inventario ``res://assets/burguer.png``
 
