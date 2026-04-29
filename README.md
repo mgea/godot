@@ -215,7 +215,8 @@ Juegos:
 * [Point & Click](point_and_click) - coger objetos (coleccionar) 
 
 * [Drag&Drop](drag_and_drop)  - arrastrar y soltar objetos con varias alternativas. 
-   
+
+  
 <br>
 
 
@@ -224,12 +225,11 @@ Juegos:
 Quizz (tablero de preguntas)  y juego de colisionar para activar preguntas.
 * [Quizz](quizz)
 * demo en Itch.io -> https://cmiugr.itch.io/quizz
-  
+
+* [Enemigo_RPG](Enemigo_RPG) - Enemigo que se mueve de forma autónoma (pendiente)
+
 
 <br>
-Drag & Drop: arrastrar y soltar con varias alternativas. 
-
-* [Drag&Drop](drag_and_drop)
 
 
 <br>
