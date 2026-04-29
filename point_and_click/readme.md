@@ -10,6 +10,15 @@ El objeto coleccionable tiene las señales para saber si el mouse está in / out
 Además detecta clic dentro de Area2D 
 Las variables que empiezan con ``@export`` se pueden añadir desde el Inspector (por ejemplo la textura, el nombre, etc.) 
 
+```
+Coleccionable (Node2D)
+ ├── Area2D
+ └── ColisionShape
+     └── Sprite2D
+```
+
+
+
 
 
 ```gdscript
@@ -67,6 +76,9 @@ func _on_area_2d_mouse_exited() -> void:
 ```
 
 
+
+
+
 ## Creamos un Inventario (fichero Inventario.gd) como variable global 
 
 * El inventario es un panel que se puede abrir / cerrar con la barra de espacio 
@@ -76,6 +88,57 @@ func _on_area_2d_mouse_exited() -> void:
 por ejemplo: se almacena "burguer" y se coloca en inventario ``res://assets/burguer.png``
 
 
+
+```
+Node2D
+ ├── Coleccionable
+ ├── Coleccionable
+ ├── Coleccionable
+ └── CanvasLayer
+     ├── Panel 
+     └── Label
+```
+
+```gdscript
+extends Node2D
+
+
+@onready var ui = $CanvasLayer
+var abierto = true
+
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Abre el panel de objetos con tecla de espacio
+func _process(delta: float) -> void:
+	if Input.is_action_just_pressed("ui_accept"): # normalmente ESPACIO
+		# conmuta abierto/cerrado	
+		abierto = !abierto 
+		# muestra o no 
+		ui.visible = abierto
+	if abierto:
+		actualizar_ui()
+
+### actualiza elementos que deben aparecer en inventario cada vez que se abre
+func actualizar_ui():
+	# elimono los actuales
+	var offset_x = 70
+	var start_pos = Vector2(20, 20)
+	var i=0
+	for c in $CanvasLayer/Panel.get_children():
+		c.queue_free()
+	# pongo los recolectados
+	for item in Inventario.items:
+		var icon = TextureRect.new()
+		icon.texture = load("res://assets/" + item + ".png")
+		icon.custom_minimum_size = Vector2(64,64)
+		$CanvasLayer/Panel.add_child(icon)
+		icon.position = start_pos + Vector2(offset_x * i, 0)
+		i += 1
+
+
+```
 
 
 Repositorio de coleccionables. https://pixelrepo.com/collections/free
