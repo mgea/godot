@@ -211,6 +211,13 @@ Cómo exportar:
 
 <br>
 <br>
+Juegos: 
+
+* [Point & Click](point_and_click) - coger objetos (coleccionar) 
+
+* [Drag&Drop](drag_and_drop)  - arrastrar y soltar objetos con varias alternativas. 
+   
+
 
 
 ## Sesión 8: Juegos  
