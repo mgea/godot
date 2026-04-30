@@ -198,6 +198,10 @@ Creación de un plugin para Sistema de Dialogo **Dialogic**. Usar para crear nar
   * Se crean variables 
   * Se emiten señales desde Dialogic  
 
+
+* [Abrir Dialogic cerca de un personaje](Dialogic_open)
+
+
 * [Estilos en Dialogic](Dialogic_style)
 
 <br>
@@ -215,6 +219,7 @@ Juegos:
 * [Point & Click](point_and_click) - coger objetos (coleccionar) 
 
 * [Drag&Drop](drag_and_drop)  - arrastrar y soltar objetos con varias alternativas. 
+
 
   
 <br>
