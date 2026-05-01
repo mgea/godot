@@ -3,6 +3,17 @@
 Fuente: [Dialogic_VisualNovel_style](dialogic_VN_estilos.zip)
 
 
+Tipos de Estilos:
+* Novela Visual: Diseño estándar con caja de texto inferior, nombre y retrato.
+* Burbuja de Voz (Bubble Style): Burbujas que siguen al personaje, ideales para RPGs o top-down.
+* Imagen/Retrato: Estilos que integran imágenes dentro o junto a la caja de texto.Personalización: Dentro del editor de estilos, puedes modificar colores, tamaños de fuente, etiquetas de nombre, sonidos indicadores y capas.
+
+Personalización: Dentro del editor de estilos, puedes modificar colores, tamaños de fuente, etiquetas de nombre, sonidos indicadores y capas.
+
+
+Gestión: Los estilos se pueden editar en el Style Editor y aplicarse a personajes específicos o a toda la línea de tiempo (timeline).
+
+
 
 Ver resultado: https://cmiugr.itch.io/dialogic-styles
 
