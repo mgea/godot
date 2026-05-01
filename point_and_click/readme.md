@@ -36,6 +36,12 @@ Coleccionable (Node2D)
 ```
 
 
+Señales de ``Area2D``: 
+
+* on_area_2d_mouse_entered / on_area_2d_mouse_exited
+  Cambia de tamaño cuando se acerca mouse 
+* _on_area_2d_input_event(..)
+  Comprueba que se ha pulsado el mouse y es el botón izdo, en tal caso se llama a funcion ``recoger_objeto()`` que añade al ``Inventario`` el nombre del objeto y lo elimina de escena con ``queue_free()`` 
 
 
 
@@ -105,6 +111,10 @@ func _on_area_2d_mouse_exited() -> void:
 * Se crea como variable global
 
 ![](Inventario.png)
+
+
+EL inventario es simplemente un script global que contiene una lista de elementos 
+
 
 
 por ejemplo: se almacena "burguer" y se coloca en inventario ``res://assets/burguer.png``
