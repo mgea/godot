@@ -194,16 +194,18 @@ Creación de un plugin para Sistema de Dialogo **Dialogic**. Usar para crear nar
 * [Godot+Dialogic](Dialogic) Versión de un proyecto "limpio" de Godot 4 con plugin activado de Dialogic. Listo para usar
    
 * [Ejemplo de Dialogic](https://github.com/mgea/godot/tree/main/Dialogic_example) avanzado con player que habla con personajes
-  * Se abre diálogo al "chocar" con perosnajes
+  * Se abre diálogo al "chocar" con personajes
   * Se crean variables 
   * Se emiten señales desde Dialogic  
 
 
 * [Abrir Dialogic cerca de un personaje](Dialogic_open)
+  * Se abre diálogo al estar "cerca de" personaje (área) 
+  * Se pulsa una tecla para comenzar diálogo
 
 
 * [Estilos en Dialogic](Dialogic_style)
-
+ * Se puede personalizar el área de diálogo  
 <br>
 <br>
 
