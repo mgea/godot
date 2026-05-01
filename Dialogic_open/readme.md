@@ -1,12 +1,18 @@
-## Dialogic_open
+## Dialogic_open_player_key
 
 Ejemplo que mueve un player y un "NPC dialogable" sin colisiones
+
+- demo en itc.io -> https://cmiugr.itch.io/dialogic-open-key
+- Descargar: [Dialogic_open_player_key.zip](Dialogic_open_player_key.zip)
+
 
 Cuando el player "se acerca" se activa la opción de hablar pulsando tecla
 - cuando está cerca de un objeto (no choca con el) -> Area2D
 - se debe pulsar una tecla, p.e espacio
 
-![](Portada.png)
+**Tips**: Si se quiere ver las zonas de colisión para comprobar funcionamiento, se pueden activar/desactivar en ``Menu->Depurar->Ver zonas de colisión``
+
+<img src="Portada.png" width="300px"> 
 
 ##### Personaje NPC Dialogable 
 
@@ -97,6 +103,3 @@ func _on_area_2d_body_exited(body: Node2D) -> void:
 
 
 
-
-
-[Dialogic_open.zip](Dialogic_open.zip)
