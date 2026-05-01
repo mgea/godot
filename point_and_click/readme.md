@@ -19,7 +19,7 @@ Cada objeto tiene una imagen y un nombre ("moneda", "llave"...) que luego vamos 
 * una sola escena que consiste en un objeto coleccionable. Depués podremos instanciar cambiando imagen y nombre 
 * Creamos todos los objetos de igual tamaño y el nombre del objeto coincide con el del recurso imagen ("llave" e imagen llave.png)
 * cuando se acerca el mouse, su tamaño cambia para saber que es interactivo
-* Usamos ``Area2D``para crear la escena "coleccionable" con las señales ``mouse_entered()`` y ``mouse_exited()`` para que cambie de tamaño cuando está el mouse encima (sin pulsar) y ``input_event(..)" para saber que se ha pulsado mouse que llama a una función para "recoger objeto"
+* Usamos ``Area2D``para crear la escena "coleccionable" con las señales ``mouse_entered()`` y ``mouse_exited()`` para que cambie de tamaño cuando está el mouse encima (sin pulsar) y ``input_event(..)`` para saber que se ha pulsado mouse que llama a una función para "recoger objeto"
 * La función "recoger_objeto" lo que hace es quitar elemento de escena con  ``queue_free()`` y añade su nombre a un "inventario" 
  
 ## Creamos un objeto coleccionable 
