@@ -181,7 +181,7 @@ En esta parte nos vamos a centrar en cómo manejar personajes (y colisiones)
 * [MundoRPGbasico](RPGbasico) Creación de un Mundo RPG (con Niveles tipo plataformas) usando [TileMap](https://github.com/mgea/godot/wiki/Tilemap), player y objetos 
 
  
-
+* [Player esquivar](Player-esquivar) Esquivar objetos con los que se pueden colisionar, cruzar plataforma en un tiempo limitado con ``Timer`` 
 
 <br>
 <br>
@@ -231,17 +231,9 @@ Juegos:
 
 Quizz (tablero de preguntas)  y juego de colisionar para activar preguntas.
 * [Quizz](quizz)
-* demo en Itch.io -> https://cmiugr.itch.io/quizz
-
-* [Enemigo_RPG](Enemigo_RPG) - Enemigo que se mueve de forma autónoma (pendiente)
 
 
-<br>
-
-
-<br>
-
-Crear numeros aleatorios
+Numeros aleatorios 
 
 * [random](random_fruit)
 * 
