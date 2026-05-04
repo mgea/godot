@@ -7,7 +7,7 @@ Hay un tiempo limitado (con timer)
 Se pierden vidas cada vez que colisiona 
 
 
-![](Player-esquivar.png) 
+![](player_esquivar.png) 
 
 
 Código -> [Player-esquivar.zip](Player-esquivar.zip)
