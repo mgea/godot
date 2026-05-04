@@ -13,7 +13,7 @@ Se pierden vidas cada vez que colisiona
 Código -> [Player-esquivar.zip](Player-esquivar.zip)
 
 
-## Bullet 
+### Bullet 
 
 Se mueve de izda a derecha hasta que colisiona con pared. Puede tener velocidad aleatoria entre dos valores  
 
@@ -50,7 +50,7 @@ func _physics_process(delta: float) -> void:
 ```
 
 
-## Timer
+### Timer
 
 Emite una señal ``_on_timeout`` cada x tiempo que se puede configurar (por ejemplo cada segundo)  
 
@@ -80,6 +80,77 @@ func _on_timeout() -> void:
 
 
 
+### Wall
 
+Son elementos estáticos que definen los límites, no tienen script asociado
+
+```
+Wall (Node2D)
+ ├── StaticBody2D
+ └── ColisionShape2D
+     └── Sprite2D
+```
+
+
+### Player 
+
+Cuando colisiona hay que ver cual es el objeto, puede perder vidas (con bullet) o puntos (con wall) 
+
+```gdscript 
+extends CharacterBody2D
+
+
+const speed = 500.0
+var puntos = 0 # se van añadiendo cada vez que chocas con ogro
+var vidas = 3 
+
+
+
+func get_input():
+	var input_direction = Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
+	velocity = input_direction*speed
+	$AnimatedSprite2D.play("default") 
+	if Input.is_action_pressed("ui_right"):
+		$AnimatedSprite2D.play("move_dcha")
+	if Input.is_action_pressed("ui_left"):
+		$AnimatedSprite2D.play("move_izda")
+	if Input.is_action_pressed("ui_up"):
+		$AnimatedSprite2D.play("move_up")
+	if Input.is_action_pressed("ui_down"):
+		$AnimatedSprite2D.play("move_down")
+	
+
+
+func _physics_process(delta: float) -> void:
+	# Add the gravity.
+	get_input()
+	var colision = move_and_collide(velocity * delta)
+	
+	# variable colision==true ha colisionado
+	if colision:
+		# Obtenemos el cuerpo real con el que chocamos
+		var cuerpo = colision.get_collider()
+		print("He chocado con: ", cuerpo.name)
+		
+		
+		if cuerpo.name ==  "NPC-bullet":
+			print ("pierdo una vida")
+			colision.get_collider().queue_free()
+			vidas = vidas -1 
+			if (vidas <1 ):
+				print("muerto")
+				queue_free()
+                # elimino de la escena
+
+
+		if cuerpo is StaticBody2D:
+			print ("chocado con pared", cuerpo.name)
+			
+			puntos = puntos+1
+			print ("puntos=",puntos)
+			
+		
+
+```
 
 
