@@ -222,7 +222,7 @@ Juegos:
 
 * [Drag&Drop](drag_and_drop)  - arrastrar y soltar objetos con varias alternativas. 
 
-
+Se puede usar con ``Timer`` para hacerlo en un tiempo determinado
   
 <br>
 
@@ -251,13 +251,6 @@ Numeros aleatorios
 Cargar datos en ficheros JSON
 * [load_json](fileIO)
 
-<br>
-<br>
-
-## Sesión 10 Juegos II: Timer para recoger objetos con temporizador  
-
-
-<br>
 <br>
 <br>
 
