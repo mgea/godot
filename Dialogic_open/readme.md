@@ -19,14 +19,14 @@ Cuando el player "se acerca" se activa la opción de hablar pulsando tecla
 ##### Personaje NPC Dialogable 
 
 Señales: 
-* on_area_2d_body_entered / on_area_2d_body_exited
+* ``on_area_2d_body_entered`` / ``on_area_2d_body_exited``
   Detectan si el player está dentro de su "espacio" ColisionShape
   se pone una variable "player_inside = true o false"
 
-* on_area_2d_mouse_entered / on_area_2d_mouse_exited
+* ``on_area_2d_mouse_entered`` / ``on_area_2d_mouse_exited``
   Cambia de tamaño cuando se acerca mouse (no tiene más efectos)
 
-* en _process() se hace la combrobación de pulsar tecla (mas eficiente) 
+* en ``_process()`` se hace la combrobación de pulsar tecla (mas eficiente) 
    si la variable player_inside es true
 
 * comprueba si pulsa ESPACIO 
