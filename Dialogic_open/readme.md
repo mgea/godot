@@ -45,6 +45,10 @@ extends Node2D
 
 var player_inside = false
 
+# emite una señal 
+# Señal con argumento: nombre (string) de un personaje
+signal signal_dialogar (personaje)
+
 @export var escala_normal: Vector2 = Vector2(1, 1)
 @export var escala_grande: Vector2 = Vector2(1.2, 1.2) # 20% más grande
 @export var tiempo_animacion: float = 0.2
@@ -66,7 +70,13 @@ func _process(delta: float) -> void:
 	if Input.is_action_just_pressed("ui_accept") and player_inside:
 		# comenzar diálogo al pulsar espacio
 		print("ESPACIO")
-		Dialogic.start("dialogo_oso")
+
+		# podría lanzar un diálogo si hay solo un personaje (UNICO)
+		# Dialogic.start("dialogo_oso")
+
+		# alternativa: se emite una señal con nombre de personaje (GENERICO) 
+		signal_dialogar.emit(nombre_objeto)
+
 
 
 func _on_area_2d_mouse_entered() -> void:
