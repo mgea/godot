@@ -2,6 +2,8 @@
 
 Ejemplo que mueve un player y un "NPC dialogable" sin colisiones
 
+Ejemplo de uso de **señales personalizadas**
+
 - demo en itc.io -> https://cmiugr.itch.io/dialogic-open-key
 - Descargar: [Dialogic_open_player_key.zip](Dialogic_open_player_key.zip)
 
