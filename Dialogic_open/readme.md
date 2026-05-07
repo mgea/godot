@@ -24,17 +24,20 @@ Señales:
   se pone una variable "player_inside = true o false"
 
 * ``on_area_2d_mouse_entered`` / ``on_area_2d_mouse_exited``
+
   Cambia de tamaño cuando se acerca mouse (no tiene más efectos)
 
 * en ``_process()`` se hace la combrobación de pulsar tecla (mas eficiente) 
-   si la variable player_inside es true
+
+  Si la variable player_inside es true
 
 * comprueba si pulsa ESPACIO 
-	if Input.is_action_just_pressed("ui_accept") and player_inside:
+```gdscript
+   if Input.is_action_just_pressed("ui_accept") and player_inside:
 		# comenzar diálogo al pulsar espacio
 		print("ESPACIO")
 		Dialogic.start("dialogo_oso")
-
+```
 
 Vamos a crear una **escena genérica ** llamada ``dialogable`` para crear todos los personajes que queramos tengan el mismo comportamiento (poder interactual con player al estar cerca y abrir un diálogo) 
 
