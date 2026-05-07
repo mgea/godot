@@ -39,7 +39,7 @@ Señales:
 		Dialogic.start("dialogo_oso")
 ```
 
-Vamos a crear una **escena genérica ** llamada ``dialogable`` para crear todos los personajes que queramos tengan el mismo comportamiento (poder interactual con player al estar cerca y abrir un diálogo) 
+Vamos a crear una **escena genérica** llamada ``dialogable`` para crear todos los personajes que queramos tengan el mismo comportamiento (poder interactual con player al estar cerca y abrir un diálogo) 
 
 
 ```
