@@ -243,9 +243,6 @@ Numeros aleatorios
 <br>
 
 
-
-
-
 ## Sesión 9: Almacenar y recuperar datos en fichero JSON 
 
 Cargar datos en ficheros JSON
@@ -259,6 +256,16 @@ Cargar datos en ficheros JSON
 
 Publicación en itch.io
 * [Itch.io](itchio)
+
+
+
+## UTITLIDADES 
+
+Elementos de godot listos para usar: 
+
+* [Walking Player.zip](https://github.com/mgea/godot/blob/main/RPGbasico/waking_player.zip) Personaje con movimiento y animación listo para usar
+
+  
 
 
 
