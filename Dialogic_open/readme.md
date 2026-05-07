@@ -116,7 +116,7 @@ func _on_area_2d_body_entered(body: Node2D) -> void:
 	tween.tween_property(self, "scale", escala_grande, tiempo_animacion).set_trans(Tween.TRANS_SINE)
 	# está dentro y se puede  pulsar ESPACIO 
 	player_inside=true
-	$mensaje.text="pulsa ESPACIO para hablar con oso"
+	$mensaje.text="pulsa ESPACIO para hablar con "+ nombre_objeto
 
 
 func _on_area_2d_body_exited(body: Node2D) -> void:
