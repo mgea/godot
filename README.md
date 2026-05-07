@@ -259,13 +259,10 @@ Publicación en itch.io
 
 
 
-## UTITLIDADES 
+### UTILITADES LISTAS PARA USAR 
 
-Elementos de godot listos para usar: 
+* [Walking player.zip](https://github.com/mgea/godot/blob/main/RPGbasico/waking_player.zip) -> Escena godot con personaje con movimiento por teclado y cambio de pose en 4 direcciones  
 
-* [Walking Player.zip](https://github.com/mgea/godot/blob/main/RPGbasico/waking_player.zip) Personaje con movimiento y animación listo para usar
-
-  
 
 
 
@@ -278,9 +275,6 @@ Elementos de godot listos para usar:
 
 * Godot-land https://godot.land/que-es-godot-engine/
 
-### UTILITADES LISTAS PARA USAR 
-
-* [Walking player.zip](https://github.com/mgea/godot/blob/main/RPGbasico/waking_player.zip) -> Escena godot con personaje con movimiento por teclado y cambio de pose en 4 direcciones  
 
 
 
