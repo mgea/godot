@@ -36,6 +36,21 @@ Señales:
 		Dialogic.start("dialogo_oso")
 
 
+Vamos a crear una **escena genérica ** llamada ``dialogable`` para crear todos los personajes que queramos tengan el mismo comportamiento (poder interactual con player al estar cerca y abrir un diálogo) 
+
+
+```
+# Dialogable.tscn
+dialogable (Node2D)
+ ├── Area2D 
+ ├── mensaje (Label) 
+ └── ColisionShape2D
+     └── Sprite2D
+```
+
+
+
+
 ```gdscript
 # dialogable.gd
 extends Node2D
