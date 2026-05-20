@@ -37,6 +37,8 @@ func _on_dialogic_signal (argument:String):
 
 ```
 
+Se crea la señal en Dialogic, el argumento es el que define qué hacer 
 
+![](signal.png)
 
 [Info de señales en dialogic](https://github.com/mgea/godot/wiki/Dialogic-(Dialog-System))
