@@ -206,8 +206,14 @@ Creación de un plugin para Sistema de Dialogo **Dialogic**. Usar para crear nar
 
 * [Estilos en Dialogic](Dialogic_style)
  * Se puede personalizar el área de diálogo  
+
+* [Conectar dialogos con acciones en escenas / script](Dialogic_signals)
+  * Uso de señales propias de Dialogic  
+
 <br>
 <br>
+
+
 
 ## Sesión 7: Exportar  
 
