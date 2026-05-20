@@ -181,7 +181,7 @@ En esta parte nos vamos a centrar en cómo manejar personajes (y colisiones)
 * [MundoRPGbasico](RPGbasico) Creación de un Mundo RPG (con Niveles tipo plataformas) usando [TileMap](https://github.com/mgea/godot/wiki/Tilemap), player y objetos 
 
  
-
+* [Player esquivar](Player-esquivar) Esquivar objetos con los que se pueden colisionar, cruzar plataforma en un tiempo limitado con ``Timer`` 
 
 <br>
 <br>
@@ -222,7 +222,7 @@ Juegos:
 
 * [Drag&Drop](drag_and_drop)  - arrastrar y soltar objetos con varias alternativas. 
 
-
+Se puede usar con ``Timer`` para hacerlo en un tiempo determinado
   
 <br>
 
@@ -231,17 +231,9 @@ Juegos:
 
 Quizz (tablero de preguntas)  y juego de colisionar para activar preguntas.
 * [Quizz](quizz)
-* demo en Itch.io -> https://cmiugr.itch.io/quizz
-
-* [Enemigo_RPG](Enemigo_RPG) - Enemigo que se mueve de forma autónoma (pendiente)
 
 
-<br>
-
-
-<br>
-
-Crear numeros aleatorios
+Numeros aleatorios 
 
 * [random](random_fruit)
 * 
@@ -251,21 +243,11 @@ Crear numeros aleatorios
 <br>
 
 
-
-
-
 ## Sesión 9: Almacenar y recuperar datos en fichero JSON 
 
 Cargar datos en ficheros JSON
 * [load_json](fileIO)
 
-<br>
-<br>
-
-## Sesión 10 Juegos II: Timer para recoger objetos con temporizador  
-
-
-<br>
 <br>
 <br>
 
@@ -277,6 +259,17 @@ Publicación en itch.io
 
 
 
+### UTILIDADES LISTAS PARA USAR 
+
+* [Walking player.zip](https://github.com/mgea/godot/blob/main/RPGbasico/waking_player.zip) -> Escena godot con personaje con movimiento por teclado y cambio de pose en 4 direcciones  
+
+* sonido global
+
+* Inventario
+
+
+<br>
+<br>
 
 ## RECURSOS E INFORMACION SOBRE GODOT
 
@@ -286,9 +279,6 @@ Publicación en itch.io
 
 * Godot-land https://godot.land/que-es-godot-engine/
 
-### UTILITADES LISTAS PARA USAR 
-
-* [Walking player.zip](https://github.com/mgea/godot/blob/main/RPGbasico/waking_player.zip) -> Escena godot con personaje con movimiento por teclado y cambio de pose en 4 direcciones  
 
 
 
