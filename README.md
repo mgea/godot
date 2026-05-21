@@ -215,34 +215,39 @@ Creación de un plugin para Sistema de Dialogo **Dialogic**. Usar para crear nar
 
 
 
-## Sesión 7: Exportar  
+## Sesión 7: Exportar  y Juegos
 
 Cómo exportar: 
 
 * [exportación](https://github.com/mgea/godot/wiki/exportar)
 
 <br>
-Juegos: 
 
-* [Point & Click](point_and_click) - coger objetos (coleccionar) 
-
-* [Drag&Drop](drag_and_drop)  - arrastrar y soltar objetos con varias alternativas. 
-
-Se puede usar con ``Timer`` para hacerlo en un tiempo determinado
-  
-<br>
 
 
 ## Sesión 8: Juegos  
 
-Quizz (tablero de preguntas)  y juego de colisionar para activar preguntas.
-* [Quizz](quizz)
+
+* [Point & Click](point_and_click) - coger objetos (coleccionar) 
+Se puede usar con ``Timer`` para hacerlo en un tiempo determinado
+
+* [Drag&Drop](drag_and_drop)  - arrastrar y soltar objetos con varias alternativas. 
+
+* [Quizz](quizz) Quizz (tablero de preguntas)  y juego de colisionar para activar preguntas.
 
 
-Numeros aleatorios 
+### Utilidades: Numeros aleatorios 
 
 * [random](random_fruit)
-* 
+ 
+### Utilidades: Objetos instanciables 
+
+* [Objetos instanciables](personaje_instanciable) - crear escenas con "personajes" genéricos que al instanciar (incluir en otra escena) podemos cambiar su iamgen y nombre
+ 
+  
+<br>
+
+
 
 
 <br>
