@@ -33,9 +33,11 @@ Si quisireamos que se pueda añadir comportamiento más complejo (saber si entra
 personaje.tscn (avanzado)
 ```
 Personaje (Node2D)
+ ├── nombre (Label)
+ ├── vidas (Label)
  ├── Area2D
  └── ColisionShape
-     └── Sprite2D
+     └── img (Sprite2D)
 ````
 
 
@@ -43,11 +45,47 @@ El script asociado sería:
 
 personaje.gd
 ```
+extends Node2D
 
+
+@export var imagen:Texture2D 
+@export var nombre:String
+@export var vidas:int
+
+# Añadimos los datos en el personaje
+func _ready() -> void:
+	$Area2D/CollisionShape2D/img.texture=imagen
+	$vidas.text = str(vidas)
+	$nombre.text = nombre
+	$vidas.visible=true
+	$nombre.visible=false
 ```
 
 
+y en la parte de interacción con eventos 
 
+```gdscript
+
+func _on_area_2d_mouse_entered() -> void:
+	print("enter")
+	$vidas.visible=true
+	$nombre.visible=true
+	$Area2D/CollisionShape2D/img.scale.x = 1.2
+	$Area2D/CollisionShape2D/img.scale.y = 1.2
+	
+
+
+
+func _on_area_2d_mouse_exited() -> void:
+	# el mouse sale del objeto (si no se esta moviendo, desactivar)
+	print("exit")
+	$vidas.visible=false
+	$nombre.visible=false
+	$Area2D/CollisionShape2D/img.scale.x = 1
+	$Area2D/CollisionShape2D/img.scale.y = 1
+
+
+```
 
 
 
