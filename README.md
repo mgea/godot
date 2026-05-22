@@ -65,11 +65,11 @@ La mayoría de los ejercicios está publicados para jugar online en **cuenta de 
 
 
 
- * (Dia 1) Animación de un ``Sprite2D`` por código [Hello World](hello_world) Animación básica de un 2DSprite con GDScript por Consola
+ * (Dia 1) Animación de un ``Sprite2D`` por código [Hello World](hello_world) 
 
  * Ejercicios [GDScript-basico](gdscript-basico) para comprender sintaxis del lenguaje GDScript con operaciones sencillas (2026)
 
- * Ejercicio Jerarquía de nodos: [Hello Girl](hello_girl) Ampliación del ejemplo [Hello World](hello_world) para añadir un nuevo personaje: una niña con corazón latiendo (2026)
+ * Ejercicio Jerarquía de nodos: [Hello Girl](hello_girl):  ampliación del ejemplo [Hello World](hello_world) para añadir un nuevo personaje: una niña con corazón latiendo (2026)
 
  * (Día 2) [Bansky](bansky) Pasar de una escena a otra con botones (Nodo: ``Control>Button``)
 
@@ -160,6 +160,7 @@ Sonido como fondo global (que se mantiene entre escenas)
 
 #### 4.3 Gestión de Video 
 
+* convertir videos (mp4) con ffmpeg (https://ffmpeg.wide.video/)
 
 <br>
 <br>
@@ -180,7 +181,7 @@ En esta parte nos vamos a centrar en cómo manejar personajes (y colisiones)
 
 * [MundoRPGbasico](RPGbasico) Creación de un Mundo RPG (con Niveles tipo plataformas) usando [TileMap](https://github.com/mgea/godot/wiki/Tilemap), player y objetos 
 
- 
+
 * [Player esquivar](Player-esquivar) Esquivar objetos con los que se pueden colisionar, cruzar plataforma en un tiempo limitado con ``Timer`` 
 
 <br>
@@ -192,7 +193,7 @@ En esta parte nos vamos a centrar en cómo manejar personajes (y colisiones)
 Creación de un plugin para Sistema de Dialogo **Dialogic**. Usar para crear narrativas de personajes y cómo activar con colisiones. 
 
 * [Godot+Dialogic](Dialogic) Versión de un proyecto "limpio" de Godot 4 con plugin activado de Dialogic. Listo para usar
-   
+  
 * [Ejemplo de Dialogic](https://github.com/mgea/godot/tree/main/Dialogic_example) avanzado con player que habla con personajes
   * Se abre diálogo al "chocar" con personajes
   * Se crean variables 
@@ -213,13 +214,23 @@ Creación de un plugin para Sistema de Dialogo **Dialogic**. Usar para crear nar
 <br>
 <br>
 
-
-
 ## Sesión 7: Exportar  y Juegos
 
-Cómo exportar: 
+
+
+Recuerda que para exportar es necesario **añadir las plantillas de exportacion a Godot** [info](https://docs.godotengine.org/es/4.x/tutorials/export/exporting_projects.html)
+
+​	* Buscar  **Export templates** -> https://godotengine.org/download/windows/ 
+
+
+
+Cómo exportar : 
 
 * [exportación](https://github.com/mgea/godot/wiki/exportar)
+
+**Publicación** en itch.io (exportación WEB)
+
+* [Itch.io](itchio)
 
 <br>
 
@@ -229,26 +240,24 @@ Cómo exportar:
 
 
 * [Point & Click](point_and_click) - coger objetos (coleccionar) 
-Se puede usar con ``Timer`` para hacerlo en un tiempo determinado
+  Se puede usar con ``Timer`` para hacerlo en un tiempo determinado
+
+  utiliza objetos instaciables 
 
 * [Drag&Drop](drag_and_drop)  - arrastrar y soltar objetos con varias alternativas. 
 
 * [Quizz](quizz) Quizz (tablero de preguntas)  y juego de colisionar para activar preguntas.
 
 
-### Utilidades: Numeros aleatorios 
+#### Utilidades: Numeros aleatorios 
 
 * [random](random_fruit)
- 
-### Utilidades: Objetos instanciables 
+
+#### Utilidades: Objetos instanciables 
 
 * [Objetos instanciables](personaje_instanciable) - crear escenas con "personajes" genéricos que al instanciar (incluir en otra escena) podemos cambiar su iamgen y nombre
- 
+
   
-<br>
-
-
-
 
 <br>
 <br>
@@ -263,14 +272,13 @@ Cargar datos en ficheros JSON
 <br>
 
 
-## Sesión 11: Publicar en Internet 
+## Sesión 10: Avanzado 
 
-Publicación en itch.io
-* [Itch.io](itchio)
-
+* 
 
 
-### UTILIDADES LISTAS PARA USAR 
+
+## UTILIDADES LISTAS PARA USAR 
 
 * [Walking player.zip](https://github.com/mgea/godot/blob/main/RPGbasico/waking_player.zip) -> Escena godot con personaje con movimiento por teclado y cambio de pose en 4 direcciones  
 
@@ -300,7 +308,7 @@ Publicación en itch.io
 
 Facultad de Bellas Artes, Universidad de Granada 
 
-CCBYNCSA M. Gea 
+CCBYNCSA M. Gea , 2024-26
 
 
 
